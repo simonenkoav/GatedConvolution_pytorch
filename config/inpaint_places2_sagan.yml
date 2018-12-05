@@ -1,5 +1,5 @@
 #Dataset and Loading Setting
-DATASET: 'bald'  # 'bald', 'tmnist', 'dtd', 'places2', 'celeba', 'imagenet', 'cityscapes'
+DATASET: 'places2_val'  # 'bald', 'tmnist', 'dtd', 'places2', 'celeba', 'imagenet', 'cityscapes'
 MASKDATASET: 'irrmask'
 MASK_TYPES: ['random_free_form']
 RANDOM_CROP: True
@@ -13,7 +13,7 @@ PRETRAIN_COARSE_NETWORK: False
 IMG_SHAPES: [256, 256]
 RANDOM_BBOX_SHAPE: [32, 32]
 RANDOM_BBOX_MARGIN: [64, 64]
-BATCH_SIZE: 4
+BATCH_SIZE: 8
 RANDOM_SEED: False
 PADDING: 'SAME'
 BATCH_NORM: False
@@ -118,7 +118,13 @@ DATA_FLIST:
     '/home/kagudkov/PycharmProjects/GatedConvolution_pytorch/data/bald/validation_shuffled.flist'
   ]
 
+  places2_val: [
+    '/home/kagudkov/datasets/places2/val/train_shuffled.flist',
+    '/home/kagudkov/datasets/places2/val/validation_shuffled.flist'
+  ]
   horse_mask: [
     '/unsullied/sharefs/linhangyu/Inpainting/Data/VOCData/voc_horse_bbox_train_flist.txt',
     '/unsullied/sharefs/linhangyu/Inpainting/Data/VOCData/voc_horse_bbox_val_flist.txt'
   ]
+
+
