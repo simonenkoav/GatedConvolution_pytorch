@@ -1,19 +1,15 @@
 import torch
-import torch.nn as nn
 import torch.nn.functional as F
 #from models.sa_gan_l2h_unet import InpaintRUNNet, InpaintSADirciminator
 from models.sa_gan import InpaintSANet, InpaintSADirciminator
 from models.loss import SNDisLoss, SNGenLoss, ReconLoss, PerceptualLoss, StyleLoss
-from util.logger import TensorBoardLogger
 from util.config import Config
 from data.inpaint_dataset import InpaintDataset
 from util.evaluation import AverageMeter
 from util.util import load_consistent_state_dict
 from models.vgg import vgg16_bn
 
-from evaluation import metrics
 from PIL import Image
-import pickle as pkl
 import numpy as np
 import logging
 import time

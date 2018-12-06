@@ -39,7 +39,10 @@ class GatedConv2dWithActivation(torch.nn.Module):
     Output:\phi(f(I))*\sigmoid(g(I))
     """
 
-    def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True,batch_norm=True, activation=torch.nn.LeakyReLU(0.2, inplace=True)):
+    def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True,batch_norm=True,
+                 activation=torch.nn.ELU(inplace=True)
+                 #activation=torch.nn.LeakyReLU(0.2, inplace=True)
+                 ):
         super(GatedConv2dWithActivation, self).__init__()
         self.batch_norm = batch_norm
         self.activation = activation
@@ -54,6 +57,7 @@ class GatedConv2dWithActivation(torch.nn.Module):
     def gated(self, mask):
         #return torch.clamp(mask, -1, 1)
         return self.sigmoid(mask)
+
     def forward(self, input):
         x = self.conv2d(input)
         mask = self.mask_conv2d(input)
@@ -74,7 +78,10 @@ class GatedDeConv2dWithActivation(torch.nn.Module):
     Input: The feature from last layer "I"
     Output:\phi(f(I))*\sigmoid(g(I))
     """
-    def __init__(self, scale_factor, in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True, batch_norm=True,activation=torch.nn.LeakyReLU(0.2, inplace=True)):
+    def __init__(self, scale_factor, in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True, batch_norm=True,
+                 activation=torch.nn.ELU(inplace=True)
+                 #activation=torch.nn.LeakyReLU(0.2, inplace=True)
+                 ):
         super(GatedDeConv2dWithActivation, self).__init__()
         self.conv2d = GatedConv2dWithActivation(in_channels, out_channels, kernel_size, stride, padding, dilation, groups, bias, batch_norm, activation)
         self.scale_factor = scale_factor
@@ -88,7 +95,10 @@ class SNGatedConv2dWithActivation(torch.nn.Module):
     """
     Gated Convolution with spetral normalization
     """
-    def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True, batch_norm=True, activation=torch.nn.LeakyReLU(0.2, inplace=True)):
+    def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True, batch_norm=True,
+                 activation=torch.nn.ELU(inplace=True)
+                 # activation=torch.nn.LeakyReLU(0.2, inplace=True)
+                 ):
         super(SNGatedConv2dWithActivation, self).__init__()
         self.conv2d = torch.nn.Conv2d(in_channels, out_channels, kernel_size, stride, padding, dilation, groups, bias)
         self.mask_conv2d = torch.nn.Conv2d(in_channels, out_channels, kernel_size, stride, padding, dilation, groups, bias)
@@ -125,7 +135,10 @@ class SNGatedDeConv2dWithActivation(torch.nn.Module):
     Input: The feature from last layer "I"
     Output:\phi(f(I))*\sigmoid(g(I))
     """
-    def __init__(self, scale_factor, in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True, batch_norm=True, activation=torch.nn.LeakyReLU(0.2, inplace=True)):
+    def __init__(self, scale_factor, in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True, batch_norm=True,
+                 activation=torch.nn.ELU(inplace=True),
+                 #activation=torch.nn.LeakyReLU(0.2, inplace=True)
+                 ):
         super(SNGatedDeConv2dWithActivation, self).__init__()
         self.conv2d = SNGatedConv2dWithActivation(in_channels, out_channels, kernel_size, stride, padding, dilation, groups, bias, batch_norm, activation)
         self.scale_factor = scale_factor
@@ -139,7 +152,10 @@ class SNConvWithActivation(torch.nn.Module):
     """
     SN convolution for spetral normalization conv
     """
-    def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True, activation=torch.nn.LeakyReLU(0.2, inplace=True)):
+    def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True,
+                 activation=torch.nn.ELU(inplace=True),
+                 #activation=torch.nn.LeakyReLU(0.2, inplace=True)
+                 ):
         super(SNConvWithActivation, self).__init__()
         self.conv2d = torch.nn.Conv2d(in_channels, out_channels, kernel_size, stride, padding, dilation, groups, bias)
         self.conv2d = torch.nn.utils.spectral_norm(self.conv2d)
@@ -147,6 +163,7 @@ class SNConvWithActivation(torch.nn.Module):
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
                 nn.init.kaiming_normal_(m.weight)
+
     def forward(self, input):
         x = self.conv2d(input)
         if self.activation is not None:

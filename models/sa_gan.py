@@ -120,6 +120,7 @@ class InpaintSANet(torch.nn.Module):
             GatedConv2dWithActivation(2*cnum, 4*cnum, 4, 2, padding=get_pad(128, 4, 2)),
             GatedConv2dWithActivation(4*cnum, 4*cnum, 3, 1, padding=get_pad(64, 3, 1)),
             GatedConv2dWithActivation(4*cnum, 4*cnum, 3, 1, padding=get_pad(64, 3, 1)),
+
             # atrous convlution
             GatedConv2dWithActivation(4*cnum, 4*cnum, 3, 1, dilation=2, padding=get_pad(64, 3, 1, 2)),
             GatedConv2dWithActivation(4*cnum, 4*cnum, 3, 1, dilation=4, padding=get_pad(64, 3, 1, 4)),
@@ -175,10 +176,10 @@ class InpaintSANet(torch.nn.Module):
     def forward(self, imgs, masks, img_exs=None):
         # Coarse
         masked_imgs =  imgs * (1 - masks) + masks
-        if img_exs == None:
+        if img_exs is None:
             input_imgs = torch.cat([masked_imgs, masks, torch.full_like(masks, 1.)], dim=1)
         else:
-            input_imgs = torch.cat([masked_imgs, img_exs, masks, torch.full_like(masks, 1.)], dim=1)
+            input_imgs = torch.cat([masked_imgs, masks, img_exs], dim=1)
         #print(input_imgs.size(), imgs.size(), masks.size())
         x = self.coarse_net(input_imgs)
         x = torch.clamp(x, -1., 1.)
@@ -188,7 +189,7 @@ class InpaintSANet(torch.nn.Module):
         if img_exs is None:
             input_imgs = torch.cat([masked_imgs, masks, torch.full_like(masks, 1.)], dim=1)
         else:
-            input_imgs = torch.cat([masked_imgs, img_exs, masks, torch.full_like(masks, 1.)], dim=1)
+            input_imgs = torch.cat([masked_imgs, masks, img_exs], dim=1)
         x = self.refine_conv_net(input_imgs)
         x = self.refine_attn(x)
         x_attn = x

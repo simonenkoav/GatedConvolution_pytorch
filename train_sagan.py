@@ -1,7 +1,7 @@
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
 # from models.gatedconv import InpaintGCNet, InpaintDirciminator
+from torchvision.transforms import transforms
+
 from models.sa_gan import InpaintSANet, InpaintSADirciminator
 from models.loss import SNDisLoss, SNGenLoss, ReconLoss
 from util.logger import TensorBoardLogger
@@ -10,12 +10,12 @@ from data.inpaint_dataset import InpaintDataset
 from util.evaluation import AverageMeter
 from evaluation import metrics
 from PIL import Image
-import pickle as pkl
 import numpy as np
 import logging
 import time
 import sys
 import os
+import cv2
 
 # python train inpaint.yml
 config = Config(sys.argv[1])
@@ -169,12 +169,28 @@ def train(netG, netD, GANLoss, ReconLoss, DLoss, optG, optD, dataloader, epoch, 
 
         # Optimize Discriminator
         optD.zero_grad(), netD.zero_grad(), netG.zero_grad(), optG.zero_grad()
+        guide = []
+        transform = transforms.Compose([
+            transforms.ToPILImage()
+        ])
+        for i in range(imgs.shape[0]):
+            im = transform(imgs[i])
+            im = np.array(im)
+            # cv2.imwrite('test.jpg', im)
 
-        imgs, masks = imgs.to(device), masks.to(device)
+            im = cv2.Canny(image=im, threshold1=20, threshold2=220)
+            # cv2.imwrite('test1.jpg', im)
+
+            guide.append(im)
+        guide = torch.FloatTensor(guide)
+        guide = guide[:, None, :, :]
+        imgs, masks, guide = imgs.to(device), masks.to(device), guide.to(device)
+
         imgs = (imgs / 127.5 - 1)
         # mask is 1 on masked region
+        guide = guide / 255.0
 
-        coarse_imgs, recon_imgs, attention = netG(imgs, masks)
+        coarse_imgs, recon_imgs, attention = netG(imgs, masks, guide)
         # print(attention.size(), )
         complete_imgs = recon_imgs * masks + imgs * (1 - masks)
 
