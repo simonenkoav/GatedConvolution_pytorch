@@ -173,8 +173,8 @@ def train(netG, netD, GANLoss, ReconLoss, DLoss, optG, optD, dataloader, epoch, 
         transform = transforms.Compose([
             transforms.ToPILImage()
         ])
-        for i in range(imgs.shape[0]):
-            im = transform(imgs[i])
+        for k in range(imgs.shape[0]):
+            im = transform(imgs[k])
             im = np.array(im)
             # cv2.imwrite('test.jpg', im)
 
