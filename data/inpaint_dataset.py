@@ -101,6 +101,7 @@ class InpaintDataset(BaseDataset):
             return Image.fromarray(np.tile(mask,(1,1,3)).astype(np.uint8))
         elif 'val' in mask_type:
             mask = InpaintDataset.read_val_mask(path)
+            mask = np.resize(mask, (self.resize_shape[0], self.resize_shape[1], mask.shape[2]))
             return Image.fromarray(np.tile(mask,(1,1,3)).astype(np.uint8))
         else:
             bbox = InpaintDataset.read_bbox(path)

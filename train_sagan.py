@@ -180,6 +180,7 @@ def train(netG, netD, GANLoss, ReconLoss, DLoss, optG, optD, dataloader, epoch, 
 
             im = cv2.Canny(image=im, threshold1=20, threshold2=220)
             # cv2.imwrite('test1.jpg', im)
+            # exit(1)
 
             guide.append(im)
         guide = torch.FloatTensor(guide)
