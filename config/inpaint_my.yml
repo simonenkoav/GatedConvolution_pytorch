@@ -54,6 +54,6 @@ SPATIAL_DISCOUNTING_GAMMA: 0.9
 DATA_FLIST:
 
   edges:
-      base_path: '/root/fast_storage/datasets/face/MsCeleb_others/'
-      train_fname: 'train.txt'
-      test_fname: 'test.txt'
+      base_path: '/root/storage/nvme/datasets/face/MsCeleb_others/'
+      train_fname: 'train_files/train.txt'
+      test_fname: 'train_files/test.txt'
