@@ -46,11 +46,13 @@ class InpaintDatasetMy(BaseDataset):
         image = self.read_img(self.base_path + iname)
         edge_image = Image.open(self.base_path + mname)
 
-        img = self.transforms_fun(image)
-        mask = self.transforms_fun(self.process_mask(image.size, bbox))
-        drawing = self.transforms_fun(self.process_drawing(edge_image, image.size, bbox))
+        mask = self.process_mask(image.size, bbox)
+        drawing = self.process_drawing(edge_image, image.size, bbox)
+        image, mask, drawing = image.resize(self.resize_shape), mask.resize(self.resize_shape), \
+                               drawing.resize(self.resize_shape)
+        image, mask, drawing = self.transforms_fun(image), self.transforms_fun(mask), self.transforms_fun(drawing)
 
-        return img*255, mask*255, drawing*255
+        return image*255, mask*255, drawing*255
 
     def read_img(self, path):
         img = Image.open(path).convert("RGB")
@@ -59,8 +61,8 @@ class InpaintDatasetMy(BaseDataset):
     @staticmethod
     def process_mask(img_size, bbox):
         mask = np.zeros_like(img_size)
-        mask[bbox[1]:bbox[3], bbox[0]:bbox[2]] = 1.
-        return mask
+        mask[bbox[1]:bbox[3], bbox[0]:bbox[2]] = 255
+        return Image.fromarray(mask)
 
     @staticmethod
     def process_drawing(mask, img_size, bbox):
@@ -69,5 +71,8 @@ class InpaintDatasetMy(BaseDataset):
         drawing = np.array(drawing)
         drawing[drawing > 105] = 255
         drawing[drawing != 255] = 0
-        drawing[bbox[1]:bbox[3], bbox[0]:bbox[2]] = 0
-        return drawing / 255
+        for i in range(drawing.shape[0]):
+            for k in range(drawing.shape[1]):
+                if not (bbox[1] <= i <= bbox[3] and bbox[0] <= k <= bbox[2]):
+                    drawing[bbox[1]:bbox[3], bbox[0]:bbox[2]] = 0
+        return Image.fromarray(drawing)
