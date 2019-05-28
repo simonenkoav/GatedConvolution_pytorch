@@ -255,14 +255,14 @@ def main():
 
     # Dataset setting
     logger.info("Initialize the dataset...")
-    train_dataset = InpaintDatasetMy(config.DATA_FLIST[dataset_type][config.train_fname],
-                                     config.DATA_FLIST[dataset_type][config.base_path],
+    train_dataset = InpaintDatasetMy(config.DATA_FLIST[dataset_type]['train_fname'],
+                                     config.DATA_FLIST[dataset_type]['base_path'],
                                      resize_shape=tuple(config.IMG_SHAPES))
     train_loader = train_dataset.loader(batch_size=batch_size, shuffle=True,
                                         num_workers=16, pin_memory=True)
 
-    val_dataset = InpaintDatasetMy(config.DATA_FLIST[dataset_type][config.test_fname],
-                                   config.DATA_FLIST[dataset_type][config.base_path],
+    val_dataset = InpaintDatasetMy(config.DATA_FLIST[dataset_type]['test_fname'],
+                                   config.DATA_FLIST[dataset_type]['base_path'],
                                    resize_shape=tuple(config.IMG_SHAPES))
     val_loader = val_dataset.loader(batch_size=1, shuffle=False,
                                     num_workers=1)

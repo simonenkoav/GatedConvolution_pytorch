@@ -30,7 +30,7 @@ class InpaintDatasetMy(BaseDataset):
 
         for line in open(base_path + flist_path):
             iname, bbox, ename = line.rstrip().split('\t')
-            self.data.append((iname, map(int, bbox.split()), ename))
+            self.data.append((iname, list(map(int, bbox.split())), ename))
         self.base_path = base_path
 
         self.resize_shape = resize_shape
@@ -60,7 +60,7 @@ class InpaintDatasetMy(BaseDataset):
 
     @staticmethod
     def process_mask(img_size, bbox):
-        mask = np.zeros_like(img_size)
+        mask = np.zeros(img_size)
         mask[bbox[1]:bbox[3], bbox[0]:bbox[2]] = 255
         return Image.fromarray(mask)
 
