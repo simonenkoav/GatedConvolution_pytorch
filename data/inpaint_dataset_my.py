@@ -7,6 +7,36 @@ from PIL import Image, ImageOps
 from .base_dataset import BaseDataset, NoriBaseDataset
 from torch.utils.data import Dataset, DataLoader
 import pickle as pkl
+import random
+
+
+def find_coeffs(source_coords, target_coords):
+    matrix = []
+    for s, t in zip(source_coords, target_coords):
+        matrix.append([t[0], t[1], 1, 0, 0, 0, -s[0] * t[0], -s[0] * t[1]])
+        matrix.append([0, 0, 0, t[0], t[1], 1, -s[1] * t[0], -s[1] * t[1]])
+    A = np.matrix(matrix, dtype=np.float)
+    B = np.array(source_coords).reshape(8)
+    res = np.dot(np.linalg.inv(A.T * A) * A.T, B)
+    return np.array(res).reshape(8)
+
+
+def random_crop(image):
+    new_w, new_h = int(round(image.width * random.uniform(0.9, 1.0))), \
+                   int(round(image.height * random.uniform(0.9, 1.0)))
+    start_x, start_y = (image.width - new_w)/2, (image.height - new_w)/2
+    return image.crop((start_x, start_y, start_x + new_w, start_y + new_h)).resize(image.size)
+
+
+def transform_image(image):
+    width, height = image.size
+    m = random.uniform(-0.3, 0.3)
+    xshift = m * width
+    new_width = width + int(round(xshift))
+    coeffs = find_coeffs(
+        [(0, 0), (image.size[0], 0), (image.size[0], image.size[0]), (0, image.size[0])],
+        [(0, 0), (image.size[0], 0), (new_width, height), (xshift, height)])
+    return random_crop(image.transform(image.size, Image.PERSPECTIVE, coeffs, Image.BICUBIC))
 
 
 class InpaintDatasetMy(BaseDataset):
@@ -45,6 +75,7 @@ class InpaintDatasetMy(BaseDataset):
         iname, bbox, mname = self.data[index]
         image = self.read_img(self.base_path + iname)
         edge_image = Image.open(self.base_path + mname)
+        edge_image = transform_image(edge_image)
 
         mask = self.process_mask(image.size, bbox)
         drawing = self.process_drawing(edge_image, image.size, bbox)
