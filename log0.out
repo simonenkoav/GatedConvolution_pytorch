@@ -1,0 +1,773 @@
+INFO:__main__:Initialize the dataset...
+INFO:__main__:Finish the dataset initialization.
+INFO:__main__:Define the Network Structure and Losses
+INFO:__main__:Finish Define the Network Structure and Losses
+INFO:__main__:Start Training...
+INFO:__main__:Epoch 0, [50/7180]: Batch Time:2.1006,	 Data Time:0.0001, Whole Gen Loss:1.5179	,Recon Loss:1.5129,	 GAN Loss:0.0050,	 D Loss:0.0013
+INFO:__main__:Epoch 0, [100/7180]: Batch Time:2.0068,	 Data Time:0.0001, Whole Gen Loss:1.3652	,Recon Loss:1.3602,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [150/7180]: Batch Time:2.0211,	 Data Time:0.0001, Whole Gen Loss:1.3573	,Recon Loss:1.3523,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [200/7180]: Batch Time:2.1190,	 Data Time:0.0001, Whole Gen Loss:1.1446	,Recon Loss:1.1396,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [250/7180]: Batch Time:2.1082,	 Data Time:0.0001, Whole Gen Loss:1.1066	,Recon Loss:1.1016,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [300/7180]: Batch Time:2.0383,	 Data Time:0.0001, Whole Gen Loss:1.0778	,Recon Loss:1.0728,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [350/7180]: Batch Time:1.9307,	 Data Time:0.0001, Whole Gen Loss:1.2314	,Recon Loss:1.2264,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [400/7180]: Batch Time:1.9505,	 Data Time:0.0001, Whole Gen Loss:1.1487	,Recon Loss:1.1437,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [450/7180]: Batch Time:2.0647,	 Data Time:0.0001, Whole Gen Loss:1.0044	,Recon Loss:0.9994,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [500/7180]: Batch Time:2.0151,	 Data Time:0.0001, Whole Gen Loss:1.0248	,Recon Loss:1.0198,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [550/7180]: Batch Time:2.1333,	 Data Time:0.0001, Whole Gen Loss:0.8761	,Recon Loss:0.8711,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [600/7180]: Batch Time:2.0727,	 Data Time:0.0001, Whole Gen Loss:0.8131	,Recon Loss:0.8081,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [650/7180]: Batch Time:2.0924,	 Data Time:0.0001, Whole Gen Loss:0.9429	,Recon Loss:0.9379,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [700/7180]: Batch Time:2.0866,	 Data Time:0.0001, Whole Gen Loss:0.9256	,Recon Loss:0.9206,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [750/7180]: Batch Time:2.0433,	 Data Time:0.0001, Whole Gen Loss:0.7756	,Recon Loss:0.7706,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [800/7180]: Batch Time:2.0734,	 Data Time:0.0001, Whole Gen Loss:0.9418	,Recon Loss:0.9368,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [850/7180]: Batch Time:2.0339,	 Data Time:0.0001, Whole Gen Loss:0.8637	,Recon Loss:0.8587,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [900/7180]: Batch Time:2.0304,	 Data Time:0.0001, Whole Gen Loss:0.9068	,Recon Loss:0.9018,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [950/7180]: Batch Time:2.0240,	 Data Time:0.0001, Whole Gen Loss:0.8237	,Recon Loss:0.8187,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1000/7180]: Batch Time:2.1261,	 Data Time:0.0001, Whole Gen Loss:0.8823	,Recon Loss:0.8773,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1050/7180]: Batch Time:2.0781,	 Data Time:0.0001, Whole Gen Loss:0.7765	,Recon Loss:0.7715,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1100/7180]: Batch Time:2.1126,	 Data Time:0.0001, Whole Gen Loss:0.7834	,Recon Loss:0.7784,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1150/7180]: Batch Time:2.1115,	 Data Time:0.0001, Whole Gen Loss:0.7774	,Recon Loss:0.7724,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1200/7180]: Batch Time:2.0191,	 Data Time:0.0001, Whole Gen Loss:0.6784	,Recon Loss:0.6734,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1250/7180]: Batch Time:2.1228,	 Data Time:0.0001, Whole Gen Loss:0.7144	,Recon Loss:0.7094,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1300/7180]: Batch Time:1.9770,	 Data Time:0.0001, Whole Gen Loss:0.7143	,Recon Loss:0.7093,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1350/7180]: Batch Time:1.9708,	 Data Time:0.0001, Whole Gen Loss:0.8633	,Recon Loss:0.8583,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1400/7180]: Batch Time:2.0365,	 Data Time:0.0001, Whole Gen Loss:0.7663	,Recon Loss:0.7613,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1450/7180]: Batch Time:1.9209,	 Data Time:0.0001, Whole Gen Loss:0.7279	,Recon Loss:0.7229,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1500/7180]: Batch Time:2.1021,	 Data Time:0.0001, Whole Gen Loss:0.7898	,Recon Loss:0.7848,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1550/7180]: Batch Time:2.0941,	 Data Time:0.0001, Whole Gen Loss:0.6418	,Recon Loss:0.6368,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1600/7180]: Batch Time:2.1464,	 Data Time:0.0001, Whole Gen Loss:0.7873	,Recon Loss:0.7823,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1650/7180]: Batch Time:2.0858,	 Data Time:0.0001, Whole Gen Loss:0.7512	,Recon Loss:0.7462,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1700/7180]: Batch Time:2.0766,	 Data Time:0.0001, Whole Gen Loss:0.6762	,Recon Loss:0.6712,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1750/7180]: Batch Time:1.9859,	 Data Time:0.0001, Whole Gen Loss:0.5987	,Recon Loss:0.5937,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1800/7180]: Batch Time:1.9788,	 Data Time:0.0001, Whole Gen Loss:0.6555	,Recon Loss:0.6505,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1850/7180]: Batch Time:1.9741,	 Data Time:0.0001, Whole Gen Loss:0.8153	,Recon Loss:0.8103,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1900/7180]: Batch Time:1.9363,	 Data Time:0.0001, Whole Gen Loss:0.6068	,Recon Loss:0.6018,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [1950/7180]: Batch Time:2.1030,	 Data Time:0.0001, Whole Gen Loss:0.6947	,Recon Loss:0.6897,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2000/7180]: Batch Time:2.8276,	 Data Time:0.0001, Whole Gen Loss:0.5586	,Recon Loss:0.5536,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2050/7180]: Batch Time:2.1187,	 Data Time:0.0001, Whole Gen Loss:0.6446	,Recon Loss:0.6396,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2100/7180]: Batch Time:1.9734,	 Data Time:0.0001, Whole Gen Loss:0.5283	,Recon Loss:0.5233,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2150/7180]: Batch Time:1.9524,	 Data Time:0.0001, Whole Gen Loss:0.6237	,Recon Loss:0.6187,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2200/7180]: Batch Time:2.1553,	 Data Time:0.0001, Whole Gen Loss:0.5494	,Recon Loss:0.5444,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2250/7180]: Batch Time:1.9556,	 Data Time:0.0001, Whole Gen Loss:0.6399	,Recon Loss:0.6349,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2300/7180]: Batch Time:2.0181,	 Data Time:0.0001, Whole Gen Loss:0.5110	,Recon Loss:0.5060,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2350/7180]: Batch Time:2.2348,	 Data Time:0.0001, Whole Gen Loss:0.6550	,Recon Loss:0.6500,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2400/7180]: Batch Time:2.0446,	 Data Time:0.0001, Whole Gen Loss:0.6553	,Recon Loss:0.6503,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2450/7180]: Batch Time:2.1771,	 Data Time:0.0001, Whole Gen Loss:0.5516	,Recon Loss:0.5466,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2500/7180]: Batch Time:2.1423,	 Data Time:0.0001, Whole Gen Loss:0.5342	,Recon Loss:0.5292,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2550/7180]: Batch Time:2.1498,	 Data Time:0.0001, Whole Gen Loss:0.5275	,Recon Loss:0.5225,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2600/7180]: Batch Time:2.0965,	 Data Time:0.0001, Whole Gen Loss:0.5409	,Recon Loss:0.5359,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2650/7180]: Batch Time:2.1704,	 Data Time:0.0001, Whole Gen Loss:0.5663	,Recon Loss:0.5613,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2700/7180]: Batch Time:1.9937,	 Data Time:0.0001, Whole Gen Loss:0.6205	,Recon Loss:0.6155,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2750/7180]: Batch Time:2.2298,	 Data Time:0.0001, Whole Gen Loss:0.5307	,Recon Loss:0.5257,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2800/7180]: Batch Time:2.1058,	 Data Time:0.0001, Whole Gen Loss:0.5984	,Recon Loss:0.5934,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2850/7180]: Batch Time:2.0305,	 Data Time:0.0001, Whole Gen Loss:0.5624	,Recon Loss:0.5574,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2900/7180]: Batch Time:2.1095,	 Data Time:0.0001, Whole Gen Loss:0.5762	,Recon Loss:0.5712,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [2950/7180]: Batch Time:1.9158,	 Data Time:0.0001, Whole Gen Loss:0.6086	,Recon Loss:0.6036,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3000/7180]: Batch Time:2.0755,	 Data Time:0.0001, Whole Gen Loss:0.4758	,Recon Loss:0.4708,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3050/7180]: Batch Time:2.1270,	 Data Time:0.0001, Whole Gen Loss:0.4498	,Recon Loss:0.4448,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3100/7180]: Batch Time:1.9759,	 Data Time:0.0001, Whole Gen Loss:0.4544	,Recon Loss:0.4494,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3150/7180]: Batch Time:2.0174,	 Data Time:0.0001, Whole Gen Loss:0.5505	,Recon Loss:0.5455,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3200/7180]: Batch Time:2.1130,	 Data Time:0.0001, Whole Gen Loss:0.7614	,Recon Loss:0.7564,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 0, [100/100]: Batch Time:0.0319,	 Data Time:0.0000,	 Whole Gen Loss:1.6325	,Recon Loss:1.6275,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3250/7180]: Batch Time:1.9087,	 Data Time:0.0001, Whole Gen Loss:0.5296	,Recon Loss:0.5246,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3300/7180]: Batch Time:2.0990,	 Data Time:0.0001, Whole Gen Loss:0.5289	,Recon Loss:0.5239,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3350/7180]: Batch Time:2.0030,	 Data Time:0.0001, Whole Gen Loss:0.6764	,Recon Loss:0.6714,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3400/7180]: Batch Time:2.1042,	 Data Time:0.0001, Whole Gen Loss:0.5162	,Recon Loss:0.5112,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3450/7180]: Batch Time:2.0754,	 Data Time:0.0001, Whole Gen Loss:0.6033	,Recon Loss:0.5983,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3500/7180]: Batch Time:2.1173,	 Data Time:0.0001, Whole Gen Loss:0.4739	,Recon Loss:0.4689,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3550/7180]: Batch Time:2.0007,	 Data Time:0.0001, Whole Gen Loss:0.4790	,Recon Loss:0.4740,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3600/7180]: Batch Time:1.9287,	 Data Time:0.0001, Whole Gen Loss:0.3943	,Recon Loss:0.3893,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3650/7180]: Batch Time:1.9829,	 Data Time:0.0001, Whole Gen Loss:0.5026	,Recon Loss:0.4976,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3700/7180]: Batch Time:2.0026,	 Data Time:0.0001, Whole Gen Loss:0.3956	,Recon Loss:0.3906,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3750/7180]: Batch Time:2.0140,	 Data Time:0.0001, Whole Gen Loss:0.5016	,Recon Loss:0.4966,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3800/7180]: Batch Time:1.9649,	 Data Time:0.0001, Whole Gen Loss:0.4974	,Recon Loss:0.4924,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3850/7180]: Batch Time:2.0604,	 Data Time:0.0001, Whole Gen Loss:0.4154	,Recon Loss:0.4104,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3900/7180]: Batch Time:2.1497,	 Data Time:0.0001, Whole Gen Loss:0.5077	,Recon Loss:0.5027,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [3950/7180]: Batch Time:2.0009,	 Data Time:0.0001, Whole Gen Loss:0.4329	,Recon Loss:0.4279,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4000/7180]: Batch Time:2.2050,	 Data Time:0.0001, Whole Gen Loss:0.4528	,Recon Loss:0.4478,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4050/7180]: Batch Time:1.9487,	 Data Time:0.0001, Whole Gen Loss:0.5516	,Recon Loss:0.5466,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4100/7180]: Batch Time:1.9351,	 Data Time:0.0001, Whole Gen Loss:0.4186	,Recon Loss:0.4136,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4150/7180]: Batch Time:1.9315,	 Data Time:0.0001, Whole Gen Loss:0.4658	,Recon Loss:0.4608,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4200/7180]: Batch Time:2.0046,	 Data Time:0.0001, Whole Gen Loss:0.3740	,Recon Loss:0.3690,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4250/7180]: Batch Time:1.9601,	 Data Time:0.0002, Whole Gen Loss:0.5190	,Recon Loss:0.5140,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4300/7180]: Batch Time:2.0871,	 Data Time:0.0001, Whole Gen Loss:0.3918	,Recon Loss:0.3868,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4350/7180]: Batch Time:2.1479,	 Data Time:0.0001, Whole Gen Loss:0.4455	,Recon Loss:0.4405,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4400/7180]: Batch Time:1.9918,	 Data Time:0.0001, Whole Gen Loss:0.6720	,Recon Loss:0.6670,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4450/7180]: Batch Time:2.1161,	 Data Time:0.0001, Whole Gen Loss:0.3662	,Recon Loss:0.3612,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4500/7180]: Batch Time:2.0592,	 Data Time:0.0001, Whole Gen Loss:0.3759	,Recon Loss:0.3709,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4550/7180]: Batch Time:2.0764,	 Data Time:0.0001, Whole Gen Loss:0.3911	,Recon Loss:0.3861,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4600/7180]: Batch Time:2.1371,	 Data Time:0.0001, Whole Gen Loss:0.4625	,Recon Loss:0.4575,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4650/7180]: Batch Time:1.9196,	 Data Time:0.0001, Whole Gen Loss:0.4117	,Recon Loss:0.4067,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4700/7180]: Batch Time:2.1330,	 Data Time:0.0001, Whole Gen Loss:0.4798	,Recon Loss:0.4748,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4750/7180]: Batch Time:1.9906,	 Data Time:0.0001, Whole Gen Loss:0.4370	,Recon Loss:0.4320,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4800/7180]: Batch Time:1.9207,	 Data Time:0.0001, Whole Gen Loss:0.6666	,Recon Loss:0.6616,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4850/7180]: Batch Time:2.0443,	 Data Time:0.0001, Whole Gen Loss:0.4628	,Recon Loss:0.4578,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4900/7180]: Batch Time:1.9403,	 Data Time:0.0001, Whole Gen Loss:0.4619	,Recon Loss:0.4569,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [4950/7180]: Batch Time:1.9269,	 Data Time:0.0001, Whole Gen Loss:0.4975	,Recon Loss:0.4925,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5000/7180]: Batch Time:2.1382,	 Data Time:0.0001, Whole Gen Loss:0.4259	,Recon Loss:0.4209,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5050/7180]: Batch Time:1.9521,	 Data Time:0.0001, Whole Gen Loss:0.4177	,Recon Loss:0.4127,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5100/7180]: Batch Time:1.9891,	 Data Time:0.0001, Whole Gen Loss:0.4044	,Recon Loss:0.3994,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5150/7180]: Batch Time:2.0026,	 Data Time:0.0001, Whole Gen Loss:0.4240	,Recon Loss:0.4190,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5200/7180]: Batch Time:1.9639,	 Data Time:0.0001, Whole Gen Loss:0.3999	,Recon Loss:0.3949,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5250/7180]: Batch Time:1.9234,	 Data Time:0.0001, Whole Gen Loss:0.4456	,Recon Loss:0.4406,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5300/7180]: Batch Time:1.9915,	 Data Time:0.0001, Whole Gen Loss:0.4072	,Recon Loss:0.4022,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5350/7180]: Batch Time:2.0206,	 Data Time:0.0001, Whole Gen Loss:0.4907	,Recon Loss:0.4857,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5400/7180]: Batch Time:2.0962,	 Data Time:0.0001, Whole Gen Loss:0.3606	,Recon Loss:0.3556,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5450/7180]: Batch Time:2.0231,	 Data Time:0.0001, Whole Gen Loss:0.3971	,Recon Loss:0.3921,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5500/7180]: Batch Time:1.9042,	 Data Time:0.0001, Whole Gen Loss:0.4348	,Recon Loss:0.4298,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5550/7180]: Batch Time:2.0338,	 Data Time:0.0001, Whole Gen Loss:0.3973	,Recon Loss:0.3923,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5600/7180]: Batch Time:2.0971,	 Data Time:0.0001, Whole Gen Loss:0.4026	,Recon Loss:0.3976,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5650/7180]: Batch Time:1.8988,	 Data Time:0.0001, Whole Gen Loss:0.3903	,Recon Loss:0.3853,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5700/7180]: Batch Time:1.9106,	 Data Time:0.0001, Whole Gen Loss:0.3912	,Recon Loss:0.3862,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5750/7180]: Batch Time:1.9203,	 Data Time:0.0001, Whole Gen Loss:0.4449	,Recon Loss:0.4399,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5800/7180]: Batch Time:1.9775,	 Data Time:0.0001, Whole Gen Loss:0.4301	,Recon Loss:0.4251,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5850/7180]: Batch Time:1.9120,	 Data Time:0.0001, Whole Gen Loss:0.3920	,Recon Loss:0.3870,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5900/7180]: Batch Time:1.9168,	 Data Time:0.0001, Whole Gen Loss:0.3905	,Recon Loss:0.3855,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [5950/7180]: Batch Time:1.9264,	 Data Time:0.0001, Whole Gen Loss:0.3678	,Recon Loss:0.3628,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6000/7180]: Batch Time:1.9478,	 Data Time:0.0001, Whole Gen Loss:0.3865	,Recon Loss:0.3815,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6050/7180]: Batch Time:1.9381,	 Data Time:0.0001, Whole Gen Loss:0.4241	,Recon Loss:0.4191,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6100/7180]: Batch Time:2.0922,	 Data Time:0.0001, Whole Gen Loss:0.3990	,Recon Loss:0.3940,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6150/7180]: Batch Time:1.9155,	 Data Time:0.0001, Whole Gen Loss:0.4916	,Recon Loss:0.4866,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6200/7180]: Batch Time:1.9923,	 Data Time:0.0001, Whole Gen Loss:0.4245	,Recon Loss:0.4195,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6250/7180]: Batch Time:2.1226,	 Data Time:0.0001, Whole Gen Loss:0.4024	,Recon Loss:0.3974,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6300/7180]: Batch Time:2.1374,	 Data Time:0.0001, Whole Gen Loss:0.3480	,Recon Loss:0.3430,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6350/7180]: Batch Time:1.9604,	 Data Time:0.0001, Whole Gen Loss:0.4140	,Recon Loss:0.4090,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6400/7180]: Batch Time:1.9394,	 Data Time:0.0001, Whole Gen Loss:0.4256	,Recon Loss:0.4206,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 0, [100/100]: Batch Time:0.0316,	 Data Time:0.0000,	 Whole Gen Loss:1.5654	,Recon Loss:1.5604,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6450/7180]: Batch Time:1.9036,	 Data Time:0.0001, Whole Gen Loss:0.4698	,Recon Loss:0.4648,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6500/7180]: Batch Time:1.9368,	 Data Time:0.0001, Whole Gen Loss:0.3837	,Recon Loss:0.3787,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6550/7180]: Batch Time:1.9841,	 Data Time:0.0001, Whole Gen Loss:0.4408	,Recon Loss:0.4358,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6600/7180]: Batch Time:2.0607,	 Data Time:0.0001, Whole Gen Loss:0.4036	,Recon Loss:0.3986,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6650/7180]: Batch Time:1.9432,	 Data Time:0.0001, Whole Gen Loss:0.4666	,Recon Loss:0.4616,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6700/7180]: Batch Time:2.1064,	 Data Time:0.0001, Whole Gen Loss:0.6285	,Recon Loss:0.6235,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6750/7180]: Batch Time:2.0804,	 Data Time:0.0001, Whole Gen Loss:0.4429	,Recon Loss:0.4379,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6800/7180]: Batch Time:2.0881,	 Data Time:0.0001, Whole Gen Loss:0.3971	,Recon Loss:0.3921,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6850/7180]: Batch Time:1.9406,	 Data Time:0.0001, Whole Gen Loss:0.3841	,Recon Loss:0.3791,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6900/7180]: Batch Time:1.9651,	 Data Time:0.0001, Whole Gen Loss:0.3765	,Recon Loss:0.3715,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [6950/7180]: Batch Time:1.9115,	 Data Time:0.0001, Whole Gen Loss:0.3457	,Recon Loss:0.3407,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [7000/7180]: Batch Time:1.9240,	 Data Time:0.0001, Whole Gen Loss:0.3765	,Recon Loss:0.3715,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [7050/7180]: Batch Time:2.0923,	 Data Time:0.0001, Whole Gen Loss:0.3544	,Recon Loss:0.3494,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [7100/7180]: Batch Time:2.0339,	 Data Time:0.0001, Whole Gen Loss:0.4707	,Recon Loss:0.4657,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 0, [7150/7180]: Batch Time:1.9142,	 Data Time:0.0001, Whole Gen Loss:0.3269	,Recon Loss:0.3219,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 0, [100/100]: Batch Time:0.0328,	 Data Time:0.0000,	 Whole Gen Loss:1.6063	,Recon Loss:1.6013,	 GAN Loss:0.0050,	 D Loss:0.0000
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+INFO:__main__:Epoch 1, [50/7180]: Batch Time:1.9169,	 Data Time:0.0001, Whole Gen Loss:0.4694	,Recon Loss:0.4644,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [100/7180]: Batch Time:2.0573,	 Data Time:0.0001, Whole Gen Loss:0.3787	,Recon Loss:0.3737,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [150/7180]: Batch Time:2.0573,	 Data Time:0.0001, Whole Gen Loss:0.3678	,Recon Loss:0.3628,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [200/7180]: Batch Time:1.9401,	 Data Time:0.0001, Whole Gen Loss:0.3254	,Recon Loss:0.3204,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [250/7180]: Batch Time:1.9608,	 Data Time:0.0001, Whole Gen Loss:0.4002	,Recon Loss:0.3952,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [300/7180]: Batch Time:1.9808,	 Data Time:0.0001, Whole Gen Loss:0.3661	,Recon Loss:0.3611,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [350/7180]: Batch Time:1.9446,	 Data Time:0.0001, Whole Gen Loss:0.4181	,Recon Loss:0.4131,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [400/7180]: Batch Time:1.9561,	 Data Time:0.0001, Whole Gen Loss:0.3663	,Recon Loss:0.3613,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [450/7180]: Batch Time:2.0924,	 Data Time:0.0001, Whole Gen Loss:0.3225	,Recon Loss:0.3175,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [500/7180]: Batch Time:1.9701,	 Data Time:0.0001, Whole Gen Loss:0.3518	,Recon Loss:0.3468,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [550/7180]: Batch Time:2.0736,	 Data Time:0.0001, Whole Gen Loss:0.3753	,Recon Loss:0.3703,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [600/7180]: Batch Time:2.0178,	 Data Time:0.0001, Whole Gen Loss:0.3749	,Recon Loss:0.3699,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [650/7180]: Batch Time:2.1040,	 Data Time:0.0001, Whole Gen Loss:0.3343	,Recon Loss:0.3293,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [700/7180]: Batch Time:2.1069,	 Data Time:0.0001, Whole Gen Loss:0.3662	,Recon Loss:0.3612,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [750/7180]: Batch Time:1.9712,	 Data Time:0.0001, Whole Gen Loss:0.3941	,Recon Loss:0.3891,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [800/7180]: Batch Time:1.9264,	 Data Time:0.0001, Whole Gen Loss:0.3784	,Recon Loss:0.3734,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [850/7180]: Batch Time:1.9772,	 Data Time:0.0001, Whole Gen Loss:0.3769	,Recon Loss:0.3719,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [900/7180]: Batch Time:1.9469,	 Data Time:0.0001, Whole Gen Loss:0.3701	,Recon Loss:0.3651,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [950/7180]: Batch Time:1.9353,	 Data Time:0.0001, Whole Gen Loss:0.3784	,Recon Loss:0.3734,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1000/7180]: Batch Time:2.0760,	 Data Time:0.0001, Whole Gen Loss:0.4736	,Recon Loss:0.4686,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1050/7180]: Batch Time:1.9069,	 Data Time:0.0001, Whole Gen Loss:0.3256	,Recon Loss:0.3206,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1100/7180]: Batch Time:2.0709,	 Data Time:0.0001, Whole Gen Loss:0.3608	,Recon Loss:0.3558,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1150/7180]: Batch Time:1.9394,	 Data Time:0.0001, Whole Gen Loss:0.3595	,Recon Loss:0.3545,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1200/7180]: Batch Time:2.0027,	 Data Time:0.0001, Whole Gen Loss:0.3690	,Recon Loss:0.3640,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1250/7180]: Batch Time:1.9209,	 Data Time:0.0001, Whole Gen Loss:0.3950	,Recon Loss:0.3900,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1300/7180]: Batch Time:1.9181,	 Data Time:0.0001, Whole Gen Loss:0.4357	,Recon Loss:0.4307,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1350/7180]: Batch Time:2.0282,	 Data Time:0.0001, Whole Gen Loss:0.3830	,Recon Loss:0.3780,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1400/7180]: Batch Time:2.0701,	 Data Time:0.0001, Whole Gen Loss:0.3517	,Recon Loss:0.3467,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1450/7180]: Batch Time:2.0403,	 Data Time:0.0001, Whole Gen Loss:0.3596	,Recon Loss:0.3546,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1500/7180]: Batch Time:1.9095,	 Data Time:0.0001, Whole Gen Loss:0.3793	,Recon Loss:0.3743,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1550/7180]: Batch Time:1.9275,	 Data Time:0.0001, Whole Gen Loss:0.4794	,Recon Loss:0.4744,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1600/7180]: Batch Time:1.9800,	 Data Time:0.0001, Whole Gen Loss:0.3929	,Recon Loss:0.3879,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1650/7180]: Batch Time:2.1244,	 Data Time:0.0001, Whole Gen Loss:0.3243	,Recon Loss:0.3193,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1700/7180]: Batch Time:1.9235,	 Data Time:0.0001, Whole Gen Loss:0.3771	,Recon Loss:0.3721,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1750/7180]: Batch Time:1.9233,	 Data Time:0.0001, Whole Gen Loss:0.3811	,Recon Loss:0.3761,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1800/7180]: Batch Time:1.9295,	 Data Time:0.0001, Whole Gen Loss:0.3400	,Recon Loss:0.3350,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1850/7180]: Batch Time:1.9552,	 Data Time:0.0001, Whole Gen Loss:0.3697	,Recon Loss:0.3647,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1900/7180]: Batch Time:2.1483,	 Data Time:0.0001, Whole Gen Loss:0.3450	,Recon Loss:0.3400,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [1950/7180]: Batch Time:1.9347,	 Data Time:0.0001, Whole Gen Loss:0.3690	,Recon Loss:0.3640,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2000/7180]: Batch Time:2.0067,	 Data Time:0.0001, Whole Gen Loss:0.5496	,Recon Loss:0.5446,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2050/7180]: Batch Time:1.9075,	 Data Time:0.0001, Whole Gen Loss:0.3508	,Recon Loss:0.3458,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2100/7180]: Batch Time:1.9466,	 Data Time:0.0001, Whole Gen Loss:0.4023	,Recon Loss:0.3973,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2150/7180]: Batch Time:1.9674,	 Data Time:0.0001, Whole Gen Loss:0.3777	,Recon Loss:0.3727,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2200/7180]: Batch Time:1.9273,	 Data Time:0.0001, Whole Gen Loss:0.4628	,Recon Loss:0.4578,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2250/7180]: Batch Time:1.9868,	 Data Time:0.0001, Whole Gen Loss:0.4488	,Recon Loss:0.4438,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2300/7180]: Batch Time:2.0320,	 Data Time:0.0001, Whole Gen Loss:0.3356	,Recon Loss:0.3306,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2350/7180]: Batch Time:2.0513,	 Data Time:0.0001, Whole Gen Loss:0.3448	,Recon Loss:0.3398,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2400/7180]: Batch Time:2.0605,	 Data Time:0.0001, Whole Gen Loss:0.3520	,Recon Loss:0.3470,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2450/7180]: Batch Time:1.9828,	 Data Time:0.0001, Whole Gen Loss:0.3716	,Recon Loss:0.3666,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2500/7180]: Batch Time:2.1099,	 Data Time:0.0001, Whole Gen Loss:0.3580	,Recon Loss:0.3530,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2550/7180]: Batch Time:1.9384,	 Data Time:0.0001, Whole Gen Loss:0.4941	,Recon Loss:0.4891,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2600/7180]: Batch Time:2.0123,	 Data Time:0.0001, Whole Gen Loss:0.3289	,Recon Loss:0.3239,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2650/7180]: Batch Time:1.9421,	 Data Time:0.0001, Whole Gen Loss:0.3385	,Recon Loss:0.3335,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2700/7180]: Batch Time:1.9528,	 Data Time:0.0001, Whole Gen Loss:0.4013	,Recon Loss:0.3963,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2750/7180]: Batch Time:1.9736,	 Data Time:0.0001, Whole Gen Loss:0.3356	,Recon Loss:0.3306,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2800/7180]: Batch Time:2.0805,	 Data Time:0.0001, Whole Gen Loss:0.3475	,Recon Loss:0.3425,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2850/7180]: Batch Time:2.0619,	 Data Time:0.0001, Whole Gen Loss:0.3564	,Recon Loss:0.3514,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2900/7180]: Batch Time:1.9372,	 Data Time:0.0001, Whole Gen Loss:0.3328	,Recon Loss:0.3278,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [2950/7180]: Batch Time:2.0755,	 Data Time:0.0001, Whole Gen Loss:0.3283	,Recon Loss:0.3233,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3000/7180]: Batch Time:1.9416,	 Data Time:0.0001, Whole Gen Loss:0.3338	,Recon Loss:0.3288,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3050/7180]: Batch Time:2.1037,	 Data Time:0.0001, Whole Gen Loss:0.3474	,Recon Loss:0.3424,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3100/7180]: Batch Time:2.1314,	 Data Time:0.0001, Whole Gen Loss:0.4669	,Recon Loss:0.4619,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3150/7180]: Batch Time:1.9352,	 Data Time:0.0001, Whole Gen Loss:0.3256	,Recon Loss:0.3206,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3200/7180]: Batch Time:2.0642,	 Data Time:0.0001, Whole Gen Loss:0.3192	,Recon Loss:0.3142,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 1, [100/100]: Batch Time:0.0336,	 Data Time:0.0000,	 Whole Gen Loss:1.5025	,Recon Loss:1.4975,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3250/7180]: Batch Time:1.9157,	 Data Time:0.0001, Whole Gen Loss:0.3456	,Recon Loss:0.3406,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3300/7180]: Batch Time:1.9609,	 Data Time:0.0001, Whole Gen Loss:0.3281	,Recon Loss:0.3231,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3350/7180]: Batch Time:2.0814,	 Data Time:0.0001, Whole Gen Loss:0.3473	,Recon Loss:0.3423,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3400/7180]: Batch Time:2.0058,	 Data Time:0.0001, Whole Gen Loss:0.3410	,Recon Loss:0.3360,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3450/7180]: Batch Time:1.8985,	 Data Time:0.0001, Whole Gen Loss:0.3259	,Recon Loss:0.3209,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3500/7180]: Batch Time:1.9055,	 Data Time:0.0001, Whole Gen Loss:0.3711	,Recon Loss:0.3661,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3550/7180]: Batch Time:1.9667,	 Data Time:0.0001, Whole Gen Loss:0.3335	,Recon Loss:0.3285,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3600/7180]: Batch Time:1.9326,	 Data Time:0.0001, Whole Gen Loss:0.4514	,Recon Loss:0.4464,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3650/7180]: Batch Time:2.0090,	 Data Time:0.0001, Whole Gen Loss:0.4448	,Recon Loss:0.4398,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3700/7180]: Batch Time:1.8970,	 Data Time:0.0001, Whole Gen Loss:0.3913	,Recon Loss:0.3863,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3750/7180]: Batch Time:2.0692,	 Data Time:0.0001, Whole Gen Loss:0.3637	,Recon Loss:0.3587,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3800/7180]: Batch Time:2.1155,	 Data Time:0.0001, Whole Gen Loss:0.3527	,Recon Loss:0.3477,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3850/7180]: Batch Time:2.1639,	 Data Time:0.0001, Whole Gen Loss:0.3143	,Recon Loss:0.3093,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3900/7180]: Batch Time:1.9275,	 Data Time:0.0001, Whole Gen Loss:0.3748	,Recon Loss:0.3698,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [3950/7180]: Batch Time:2.1046,	 Data Time:0.0001, Whole Gen Loss:0.3856	,Recon Loss:0.3806,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4000/7180]: Batch Time:2.1402,	 Data Time:0.0001, Whole Gen Loss:0.3174	,Recon Loss:0.3124,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4050/7180]: Batch Time:1.9500,	 Data Time:0.0001, Whole Gen Loss:0.2989	,Recon Loss:0.2939,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4100/7180]: Batch Time:2.0859,	 Data Time:0.0001, Whole Gen Loss:0.3655	,Recon Loss:0.3605,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4150/7180]: Batch Time:1.9272,	 Data Time:0.0001, Whole Gen Loss:0.3248	,Recon Loss:0.3198,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4200/7180]: Batch Time:2.0222,	 Data Time:0.0001, Whole Gen Loss:0.3750	,Recon Loss:0.3700,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4250/7180]: Batch Time:1.9182,	 Data Time:0.0001, Whole Gen Loss:0.3319	,Recon Loss:0.3269,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4300/7180]: Batch Time:1.9264,	 Data Time:0.0001, Whole Gen Loss:0.4289	,Recon Loss:0.4239,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4350/7180]: Batch Time:2.1211,	 Data Time:0.0001, Whole Gen Loss:0.3308	,Recon Loss:0.3258,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4400/7180]: Batch Time:1.9679,	 Data Time:0.0001, Whole Gen Loss:0.3569	,Recon Loss:0.3519,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4450/7180]: Batch Time:1.9915,	 Data Time:0.0001, Whole Gen Loss:0.3739	,Recon Loss:0.3689,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4500/7180]: Batch Time:2.0421,	 Data Time:0.0001, Whole Gen Loss:0.2963	,Recon Loss:0.2913,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4550/7180]: Batch Time:1.9166,	 Data Time:0.0001, Whole Gen Loss:0.3330	,Recon Loss:0.3280,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4600/7180]: Batch Time:1.9242,	 Data Time:0.0001, Whole Gen Loss:0.2969	,Recon Loss:0.2919,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4650/7180]: Batch Time:1.9388,	 Data Time:0.0001, Whole Gen Loss:0.4281	,Recon Loss:0.4231,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4700/7180]: Batch Time:1.9249,	 Data Time:0.0001, Whole Gen Loss:0.3495	,Recon Loss:0.3445,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4750/7180]: Batch Time:2.1265,	 Data Time:0.0001, Whole Gen Loss:0.3259	,Recon Loss:0.3209,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4800/7180]: Batch Time:1.9131,	 Data Time:0.0001, Whole Gen Loss:0.3310	,Recon Loss:0.3260,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4850/7180]: Batch Time:2.0458,	 Data Time:0.0001, Whole Gen Loss:0.3064	,Recon Loss:0.3014,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4900/7180]: Batch Time:2.0975,	 Data Time:0.0001, Whole Gen Loss:0.3751	,Recon Loss:0.3701,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [4950/7180]: Batch Time:1.9409,	 Data Time:0.0001, Whole Gen Loss:0.3383	,Recon Loss:0.3333,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5000/7180]: Batch Time:1.9628,	 Data Time:0.0001, Whole Gen Loss:0.3274	,Recon Loss:0.3224,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5050/7180]: Batch Time:1.9061,	 Data Time:0.0001, Whole Gen Loss:0.3548	,Recon Loss:0.3498,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5100/7180]: Batch Time:2.0453,	 Data Time:0.0001, Whole Gen Loss:0.3039	,Recon Loss:0.2989,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5150/7180]: Batch Time:1.9366,	 Data Time:0.0001, Whole Gen Loss:0.3032	,Recon Loss:0.2982,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5200/7180]: Batch Time:2.0593,	 Data Time:0.0001, Whole Gen Loss:0.3396	,Recon Loss:0.3346,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5250/7180]: Batch Time:2.0022,	 Data Time:0.0001, Whole Gen Loss:0.3348	,Recon Loss:0.3298,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5300/7180]: Batch Time:2.0922,	 Data Time:0.0001, Whole Gen Loss:0.3782	,Recon Loss:0.3732,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5350/7180]: Batch Time:1.9657,	 Data Time:0.0001, Whole Gen Loss:0.3419	,Recon Loss:0.3369,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5400/7180]: Batch Time:2.0433,	 Data Time:0.0001, Whole Gen Loss:0.4128	,Recon Loss:0.4078,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5450/7180]: Batch Time:2.1301,	 Data Time:0.0001, Whole Gen Loss:0.3278	,Recon Loss:0.3228,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5500/7180]: Batch Time:2.0675,	 Data Time:0.0001, Whole Gen Loss:0.3622	,Recon Loss:0.3572,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5550/7180]: Batch Time:1.9578,	 Data Time:0.0001, Whole Gen Loss:0.3193	,Recon Loss:0.3143,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5600/7180]: Batch Time:1.9586,	 Data Time:0.0001, Whole Gen Loss:0.3404	,Recon Loss:0.3354,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5650/7180]: Batch Time:1.9176,	 Data Time:0.0001, Whole Gen Loss:0.3184	,Recon Loss:0.3134,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5700/7180]: Batch Time:1.9172,	 Data Time:0.0001, Whole Gen Loss:0.3197	,Recon Loss:0.3147,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5750/7180]: Batch Time:1.9432,	 Data Time:0.0001, Whole Gen Loss:0.3661	,Recon Loss:0.3611,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5800/7180]: Batch Time:1.9145,	 Data Time:0.0001, Whole Gen Loss:0.3573	,Recon Loss:0.3523,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5850/7180]: Batch Time:2.0641,	 Data Time:0.0001, Whole Gen Loss:0.3623	,Recon Loss:0.3573,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5900/7180]: Batch Time:2.0581,	 Data Time:0.0001, Whole Gen Loss:0.3516	,Recon Loss:0.3466,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [5950/7180]: Batch Time:1.9158,	 Data Time:0.0001, Whole Gen Loss:0.3829	,Recon Loss:0.3779,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6000/7180]: Batch Time:2.0939,	 Data Time:0.0001, Whole Gen Loss:0.3230	,Recon Loss:0.3180,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6050/7180]: Batch Time:2.0133,	 Data Time:0.0001, Whole Gen Loss:0.3377	,Recon Loss:0.3327,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6100/7180]: Batch Time:1.8951,	 Data Time:0.0001, Whole Gen Loss:0.3349	,Recon Loss:0.3299,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6150/7180]: Batch Time:1.9775,	 Data Time:0.0001, Whole Gen Loss:0.3481	,Recon Loss:0.3431,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6200/7180]: Batch Time:1.9197,	 Data Time:0.0001, Whole Gen Loss:0.3273	,Recon Loss:0.3223,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6250/7180]: Batch Time:1.9242,	 Data Time:0.0001, Whole Gen Loss:0.3315	,Recon Loss:0.3265,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6300/7180]: Batch Time:1.9338,	 Data Time:0.0001, Whole Gen Loss:0.3707	,Recon Loss:0.3657,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6350/7180]: Batch Time:2.0710,	 Data Time:0.0001, Whole Gen Loss:0.3730	,Recon Loss:0.3680,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6400/7180]: Batch Time:1.9051,	 Data Time:0.0001, Whole Gen Loss:0.3769	,Recon Loss:0.3719,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 1, [100/100]: Batch Time:0.0331,	 Data Time:0.0000,	 Whole Gen Loss:1.5276	,Recon Loss:1.5226,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6450/7180]: Batch Time:1.8951,	 Data Time:0.0001, Whole Gen Loss:0.3379	,Recon Loss:0.3329,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6500/7180]: Batch Time:1.9654,	 Data Time:0.0001, Whole Gen Loss:0.3160	,Recon Loss:0.3110,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6550/7180]: Batch Time:1.9272,	 Data Time:0.0001, Whole Gen Loss:0.3526	,Recon Loss:0.3476,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6600/7180]: Batch Time:1.9368,	 Data Time:0.0001, Whole Gen Loss:0.3468	,Recon Loss:0.3418,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6650/7180]: Batch Time:1.9174,	 Data Time:0.0001, Whole Gen Loss:0.3337	,Recon Loss:0.3287,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6700/7180]: Batch Time:2.0271,	 Data Time:0.0001, Whole Gen Loss:0.3531	,Recon Loss:0.3481,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6750/7180]: Batch Time:1.9628,	 Data Time:0.0001, Whole Gen Loss:0.3237	,Recon Loss:0.3187,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6800/7180]: Batch Time:2.0822,	 Data Time:0.0001, Whole Gen Loss:0.3277	,Recon Loss:0.3227,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6850/7180]: Batch Time:2.1097,	 Data Time:0.0001, Whole Gen Loss:0.3047	,Recon Loss:0.2997,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6900/7180]: Batch Time:2.0646,	 Data Time:0.0001, Whole Gen Loss:0.2929	,Recon Loss:0.2879,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [6950/7180]: Batch Time:1.9059,	 Data Time:0.0001, Whole Gen Loss:0.3448	,Recon Loss:0.3398,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [7000/7180]: Batch Time:1.9209,	 Data Time:0.0001, Whole Gen Loss:0.3228	,Recon Loss:0.3178,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [7050/7180]: Batch Time:2.0755,	 Data Time:0.0001, Whole Gen Loss:0.3644	,Recon Loss:0.3594,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [7100/7180]: Batch Time:1.9966,	 Data Time:0.0001, Whole Gen Loss:0.3532	,Recon Loss:0.3482,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 1, [7150/7180]: Batch Time:2.0893,	 Data Time:0.0001, Whole Gen Loss:0.3165	,Recon Loss:0.3115,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 1, [100/100]: Batch Time:0.0328,	 Data Time:0.0000,	 Whole Gen Loss:1.4827	,Recon Loss:1.4777,	 GAN Loss:0.0050,	 D Loss:0.0000
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+INFO:__main__:Epoch 2, [50/7180]: Batch Time:2.0267,	 Data Time:0.0001, Whole Gen Loss:0.3499	,Recon Loss:0.3449,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [100/7180]: Batch Time:2.0730,	 Data Time:0.0001, Whole Gen Loss:0.3217	,Recon Loss:0.3167,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [150/7180]: Batch Time:1.8986,	 Data Time:0.0001, Whole Gen Loss:0.2812	,Recon Loss:0.2762,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [200/7180]: Batch Time:1.9583,	 Data Time:0.0001, Whole Gen Loss:0.3377	,Recon Loss:0.3327,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [250/7180]: Batch Time:1.9334,	 Data Time:0.0001, Whole Gen Loss:0.3862	,Recon Loss:0.3812,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [300/7180]: Batch Time:2.0108,	 Data Time:0.0001, Whole Gen Loss:0.3552	,Recon Loss:0.3502,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [350/7180]: Batch Time:2.1119,	 Data Time:0.0001, Whole Gen Loss:0.3885	,Recon Loss:0.3835,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [400/7180]: Batch Time:2.0578,	 Data Time:0.0001, Whole Gen Loss:0.3232	,Recon Loss:0.3182,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [450/7180]: Batch Time:1.9425,	 Data Time:0.0001, Whole Gen Loss:0.3181	,Recon Loss:0.3131,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [500/7180]: Batch Time:2.0325,	 Data Time:0.0001, Whole Gen Loss:0.3371	,Recon Loss:0.3321,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [550/7180]: Batch Time:2.0433,	 Data Time:0.0001, Whole Gen Loss:0.3916	,Recon Loss:0.3866,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [600/7180]: Batch Time:2.0108,	 Data Time:0.0001, Whole Gen Loss:0.3224	,Recon Loss:0.3174,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [650/7180]: Batch Time:1.9587,	 Data Time:0.0001, Whole Gen Loss:0.3705	,Recon Loss:0.3655,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [700/7180]: Batch Time:2.1268,	 Data Time:0.0001, Whole Gen Loss:0.3434	,Recon Loss:0.3384,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [750/7180]: Batch Time:1.9826,	 Data Time:0.0001, Whole Gen Loss:0.3167	,Recon Loss:0.3117,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [800/7180]: Batch Time:2.0189,	 Data Time:0.0001, Whole Gen Loss:0.2929	,Recon Loss:0.2879,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [850/7180]: Batch Time:2.0578,	 Data Time:0.0001, Whole Gen Loss:0.3037	,Recon Loss:0.2987,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [900/7180]: Batch Time:1.9669,	 Data Time:0.0001, Whole Gen Loss:0.3148	,Recon Loss:0.3098,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [950/7180]: Batch Time:2.0679,	 Data Time:0.0001, Whole Gen Loss:0.3790	,Recon Loss:0.3740,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1000/7180]: Batch Time:2.0797,	 Data Time:0.0001, Whole Gen Loss:0.2939	,Recon Loss:0.2889,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1050/7180]: Batch Time:2.0599,	 Data Time:0.0001, Whole Gen Loss:0.3274	,Recon Loss:0.3224,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1100/7180]: Batch Time:2.0299,	 Data Time:0.0001, Whole Gen Loss:0.4290	,Recon Loss:0.4240,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1150/7180]: Batch Time:1.9579,	 Data Time:0.0001, Whole Gen Loss:0.3278	,Recon Loss:0.3228,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1200/7180]: Batch Time:1.9436,	 Data Time:0.0001, Whole Gen Loss:0.3092	,Recon Loss:0.3042,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1250/7180]: Batch Time:1.9246,	 Data Time:0.0001, Whole Gen Loss:0.3737	,Recon Loss:0.3687,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1300/7180]: Batch Time:2.0746,	 Data Time:0.0001, Whole Gen Loss:0.3340	,Recon Loss:0.3290,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1350/7180]: Batch Time:1.9312,	 Data Time:0.0001, Whole Gen Loss:0.3049	,Recon Loss:0.2999,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1400/7180]: Batch Time:1.9214,	 Data Time:0.0001, Whole Gen Loss:0.3188	,Recon Loss:0.3138,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1450/7180]: Batch Time:2.1412,	 Data Time:0.0001, Whole Gen Loss:0.2891	,Recon Loss:0.2841,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1500/7180]: Batch Time:2.0937,	 Data Time:0.0001, Whole Gen Loss:0.3093	,Recon Loss:0.3043,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1550/7180]: Batch Time:1.9267,	 Data Time:0.0001, Whole Gen Loss:0.3013	,Recon Loss:0.2963,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1600/7180]: Batch Time:2.0582,	 Data Time:0.0001, Whole Gen Loss:0.3344	,Recon Loss:0.3294,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1650/7180]: Batch Time:1.9295,	 Data Time:0.0001, Whole Gen Loss:0.3809	,Recon Loss:0.3759,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1700/7180]: Batch Time:1.9376,	 Data Time:0.0001, Whole Gen Loss:0.3785	,Recon Loss:0.3735,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1750/7180]: Batch Time:2.0450,	 Data Time:0.0001, Whole Gen Loss:0.3226	,Recon Loss:0.3176,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1800/7180]: Batch Time:2.1066,	 Data Time:0.0001, Whole Gen Loss:0.3600	,Recon Loss:0.3550,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1850/7180]: Batch Time:2.0716,	 Data Time:0.0001, Whole Gen Loss:0.2814	,Recon Loss:0.2764,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1900/7180]: Batch Time:2.0556,	 Data Time:0.0001, Whole Gen Loss:0.3355	,Recon Loss:0.3305,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [1950/7180]: Batch Time:1.9087,	 Data Time:0.0001, Whole Gen Loss:0.2685	,Recon Loss:0.2635,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2000/7180]: Batch Time:1.9548,	 Data Time:0.0001, Whole Gen Loss:0.3449	,Recon Loss:0.3399,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2050/7180]: Batch Time:2.0361,	 Data Time:0.0001, Whole Gen Loss:0.3022	,Recon Loss:0.2972,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2100/7180]: Batch Time:2.0534,	 Data Time:0.0001, Whole Gen Loss:0.3638	,Recon Loss:0.3588,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2150/7180]: Batch Time:2.0908,	 Data Time:0.0001, Whole Gen Loss:0.3112	,Recon Loss:0.3062,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2200/7180]: Batch Time:2.0720,	 Data Time:0.0001, Whole Gen Loss:0.3136	,Recon Loss:0.3086,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2250/7180]: Batch Time:1.9346,	 Data Time:0.0001, Whole Gen Loss:0.3035	,Recon Loss:0.2985,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2300/7180]: Batch Time:1.9767,	 Data Time:0.0001, Whole Gen Loss:0.3829	,Recon Loss:0.3779,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2350/7180]: Batch Time:2.0441,	 Data Time:0.0001, Whole Gen Loss:0.4033	,Recon Loss:0.3983,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2400/7180]: Batch Time:1.9362,	 Data Time:0.0001, Whole Gen Loss:0.3124	,Recon Loss:0.3074,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2450/7180]: Batch Time:2.0980,	 Data Time:0.0001, Whole Gen Loss:0.3240	,Recon Loss:0.3190,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2500/7180]: Batch Time:1.9470,	 Data Time:0.0001, Whole Gen Loss:0.3172	,Recon Loss:0.3122,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2550/7180]: Batch Time:2.0868,	 Data Time:0.0001, Whole Gen Loss:0.3611	,Recon Loss:0.3561,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2600/7180]: Batch Time:2.0226,	 Data Time:0.0001, Whole Gen Loss:0.3292	,Recon Loss:0.3242,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2650/7180]: Batch Time:2.0004,	 Data Time:0.0001, Whole Gen Loss:0.3190	,Recon Loss:0.3140,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2700/7180]: Batch Time:1.9254,	 Data Time:0.0001, Whole Gen Loss:0.2826	,Recon Loss:0.2776,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2750/7180]: Batch Time:2.0388,	 Data Time:0.0001, Whole Gen Loss:0.3158	,Recon Loss:0.3108,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2800/7180]: Batch Time:1.9154,	 Data Time:0.0001, Whole Gen Loss:0.3322	,Recon Loss:0.3272,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2850/7180]: Batch Time:2.1020,	 Data Time:0.0001, Whole Gen Loss:0.3120	,Recon Loss:0.3070,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2900/7180]: Batch Time:1.9803,	 Data Time:0.0001, Whole Gen Loss:0.4306	,Recon Loss:0.4256,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [2950/7180]: Batch Time:1.9323,	 Data Time:0.0001, Whole Gen Loss:0.3055	,Recon Loss:0.3005,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3000/7180]: Batch Time:1.9936,	 Data Time:0.0001, Whole Gen Loss:0.3298	,Recon Loss:0.3248,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3050/7180]: Batch Time:1.9423,	 Data Time:0.0001, Whole Gen Loss:0.3124	,Recon Loss:0.3074,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3100/7180]: Batch Time:2.0257,	 Data Time:0.0001, Whole Gen Loss:0.3508	,Recon Loss:0.3458,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3150/7180]: Batch Time:2.0764,	 Data Time:0.0001, Whole Gen Loss:0.3095	,Recon Loss:0.3045,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3200/7180]: Batch Time:1.9260,	 Data Time:0.0001, Whole Gen Loss:0.3349	,Recon Loss:0.3299,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 2, [100/100]: Batch Time:0.0325,	 Data Time:0.0000,	 Whole Gen Loss:1.4811	,Recon Loss:1.4761,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3250/7180]: Batch Time:2.0175,	 Data Time:0.0001, Whole Gen Loss:0.3278	,Recon Loss:0.3228,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3300/7180]: Batch Time:2.1257,	 Data Time:0.0001, Whole Gen Loss:0.2945	,Recon Loss:0.2895,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3350/7180]: Batch Time:2.0808,	 Data Time:0.0001, Whole Gen Loss:0.3397	,Recon Loss:0.3347,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3400/7180]: Batch Time:2.1204,	 Data Time:0.0001, Whole Gen Loss:0.2897	,Recon Loss:0.2847,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3450/7180]: Batch Time:1.9640,	 Data Time:0.0001, Whole Gen Loss:0.3528	,Recon Loss:0.3478,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3500/7180]: Batch Time:1.9393,	 Data Time:0.0001, Whole Gen Loss:0.5084	,Recon Loss:0.5034,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3550/7180]: Batch Time:1.9399,	 Data Time:0.0001, Whole Gen Loss:0.3294	,Recon Loss:0.3244,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3600/7180]: Batch Time:1.9935,	 Data Time:0.0001, Whole Gen Loss:0.2803	,Recon Loss:0.2753,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3650/7180]: Batch Time:2.1356,	 Data Time:0.0001, Whole Gen Loss:0.3075	,Recon Loss:0.3025,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3700/7180]: Batch Time:1.9220,	 Data Time:0.0001, Whole Gen Loss:0.4727	,Recon Loss:0.4677,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3750/7180]: Batch Time:2.0343,	 Data Time:0.0001, Whole Gen Loss:0.3248	,Recon Loss:0.3198,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3800/7180]: Batch Time:1.9504,	 Data Time:0.0001, Whole Gen Loss:0.3304	,Recon Loss:0.3254,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3850/7180]: Batch Time:2.0852,	 Data Time:0.0001, Whole Gen Loss:0.3295	,Recon Loss:0.3245,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3900/7180]: Batch Time:2.1272,	 Data Time:0.0001, Whole Gen Loss:0.3132	,Recon Loss:0.3082,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [3950/7180]: Batch Time:1.9342,	 Data Time:0.0001, Whole Gen Loss:0.3033	,Recon Loss:0.2983,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4000/7180]: Batch Time:1.9556,	 Data Time:0.0001, Whole Gen Loss:0.3740	,Recon Loss:0.3690,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4050/7180]: Batch Time:1.9590,	 Data Time:0.0001, Whole Gen Loss:0.3191	,Recon Loss:0.3141,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4100/7180]: Batch Time:2.0177,	 Data Time:0.0001, Whole Gen Loss:0.2940	,Recon Loss:0.2890,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4150/7180]: Batch Time:2.0499,	 Data Time:0.0001, Whole Gen Loss:0.2992	,Recon Loss:0.2942,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4200/7180]: Batch Time:1.9801,	 Data Time:0.0001, Whole Gen Loss:0.3010	,Recon Loss:0.2960,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4250/7180]: Batch Time:2.1033,	 Data Time:0.0001, Whole Gen Loss:0.3028	,Recon Loss:0.2978,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4300/7180]: Batch Time:1.9365,	 Data Time:0.0001, Whole Gen Loss:0.2868	,Recon Loss:0.2818,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4350/7180]: Batch Time:1.9542,	 Data Time:0.0001, Whole Gen Loss:0.3466	,Recon Loss:0.3416,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4400/7180]: Batch Time:1.9553,	 Data Time:0.0001, Whole Gen Loss:0.2934	,Recon Loss:0.2884,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4450/7180]: Batch Time:1.9474,	 Data Time:0.0001, Whole Gen Loss:0.3213	,Recon Loss:0.3163,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4500/7180]: Batch Time:1.9441,	 Data Time:0.0001, Whole Gen Loss:0.2972	,Recon Loss:0.2922,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4550/7180]: Batch Time:2.0809,	 Data Time:0.0001, Whole Gen Loss:0.3106	,Recon Loss:0.3056,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4600/7180]: Batch Time:2.1172,	 Data Time:0.0001, Whole Gen Loss:0.3323	,Recon Loss:0.3273,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4650/7180]: Batch Time:2.0749,	 Data Time:0.0001, Whole Gen Loss:0.2868	,Recon Loss:0.2818,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4700/7180]: Batch Time:1.9241,	 Data Time:0.0001, Whole Gen Loss:0.2925	,Recon Loss:0.2875,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4750/7180]: Batch Time:2.0908,	 Data Time:0.0001, Whole Gen Loss:0.3824	,Recon Loss:0.3774,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4800/7180]: Batch Time:1.9448,	 Data Time:0.0001, Whole Gen Loss:0.3098	,Recon Loss:0.3048,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4850/7180]: Batch Time:2.0823,	 Data Time:0.0001, Whole Gen Loss:0.3310	,Recon Loss:0.3260,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4900/7180]: Batch Time:1.9292,	 Data Time:0.0001, Whole Gen Loss:0.3593	,Recon Loss:0.3543,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [4950/7180]: Batch Time:1.9385,	 Data Time:0.0001, Whole Gen Loss:0.2813	,Recon Loss:0.2763,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5000/7180]: Batch Time:1.9547,	 Data Time:0.0001, Whole Gen Loss:0.3089	,Recon Loss:0.3039,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5050/7180]: Batch Time:1.9249,	 Data Time:0.0001, Whole Gen Loss:0.2954	,Recon Loss:0.2904,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5100/7180]: Batch Time:1.9426,	 Data Time:0.0001, Whole Gen Loss:0.2944	,Recon Loss:0.2894,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5150/7180]: Batch Time:2.1104,	 Data Time:0.0001, Whole Gen Loss:0.2750	,Recon Loss:0.2700,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5200/7180]: Batch Time:2.0314,	 Data Time:0.0001, Whole Gen Loss:0.2687	,Recon Loss:0.2637,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5250/7180]: Batch Time:1.9427,	 Data Time:0.0001, Whole Gen Loss:0.3578	,Recon Loss:0.3528,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5300/7180]: Batch Time:1.9470,	 Data Time:0.0001, Whole Gen Loss:0.2889	,Recon Loss:0.2839,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5350/7180]: Batch Time:1.9240,	 Data Time:0.0001, Whole Gen Loss:0.2822	,Recon Loss:0.2772,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5400/7180]: Batch Time:1.9627,	 Data Time:0.0001, Whole Gen Loss:0.3622	,Recon Loss:0.3572,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5450/7180]: Batch Time:2.0997,	 Data Time:0.0001, Whole Gen Loss:0.2671	,Recon Loss:0.2621,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5500/7180]: Batch Time:2.0770,	 Data Time:0.0001, Whole Gen Loss:0.2940	,Recon Loss:0.2890,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5550/7180]: Batch Time:1.9311,	 Data Time:0.0001, Whole Gen Loss:0.2945	,Recon Loss:0.2895,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5600/7180]: Batch Time:1.9426,	 Data Time:0.0001, Whole Gen Loss:0.2950	,Recon Loss:0.2900,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5650/7180]: Batch Time:1.9369,	 Data Time:0.0001, Whole Gen Loss:0.3731	,Recon Loss:0.3681,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5700/7180]: Batch Time:1.9328,	 Data Time:0.0001, Whole Gen Loss:0.2998	,Recon Loss:0.2948,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5750/7180]: Batch Time:2.1149,	 Data Time:0.0001, Whole Gen Loss:0.3287	,Recon Loss:0.3237,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5800/7180]: Batch Time:1.9302,	 Data Time:0.0001, Whole Gen Loss:0.2928	,Recon Loss:0.2878,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5850/7180]: Batch Time:1.9529,	 Data Time:0.0001, Whole Gen Loss:0.2925	,Recon Loss:0.2875,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5900/7180]: Batch Time:1.9510,	 Data Time:0.0001, Whole Gen Loss:0.3132	,Recon Loss:0.3082,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [5950/7180]: Batch Time:2.1098,	 Data Time:0.0001, Whole Gen Loss:0.2987	,Recon Loss:0.2937,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6000/7180]: Batch Time:1.9433,	 Data Time:0.0001, Whole Gen Loss:0.3556	,Recon Loss:0.3506,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6050/7180]: Batch Time:2.0018,	 Data Time:0.0001, Whole Gen Loss:0.3186	,Recon Loss:0.3136,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6100/7180]: Batch Time:2.0471,	 Data Time:0.0001, Whole Gen Loss:0.3078	,Recon Loss:0.3028,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6150/7180]: Batch Time:1.9462,	 Data Time:0.0001, Whole Gen Loss:0.2915	,Recon Loss:0.2865,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6200/7180]: Batch Time:1.9467,	 Data Time:0.0001, Whole Gen Loss:0.2946	,Recon Loss:0.2896,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6250/7180]: Batch Time:1.9083,	 Data Time:0.0001, Whole Gen Loss:0.3633	,Recon Loss:0.3583,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6300/7180]: Batch Time:2.1511,	 Data Time:0.0001, Whole Gen Loss:0.3373	,Recon Loss:0.3323,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6350/7180]: Batch Time:1.9222,	 Data Time:0.0001, Whole Gen Loss:0.2961	,Recon Loss:0.2911,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6400/7180]: Batch Time:2.1471,	 Data Time:0.0001, Whole Gen Loss:0.2935	,Recon Loss:0.2885,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 2, [100/100]: Batch Time:0.0319,	 Data Time:0.0000,	 Whole Gen Loss:1.4974	,Recon Loss:1.4924,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6450/7180]: Batch Time:1.8853,	 Data Time:0.0001, Whole Gen Loss:0.3067	,Recon Loss:0.3017,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6500/7180]: Batch Time:1.9001,	 Data Time:0.0001, Whole Gen Loss:0.3054	,Recon Loss:0.3004,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6550/7180]: Batch Time:2.1236,	 Data Time:0.0001, Whole Gen Loss:0.2903	,Recon Loss:0.2853,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6600/7180]: Batch Time:2.0163,	 Data Time:0.0001, Whole Gen Loss:0.3001	,Recon Loss:0.2951,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6650/7180]: Batch Time:2.0962,	 Data Time:0.0001, Whole Gen Loss:0.2983	,Recon Loss:0.2933,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6700/7180]: Batch Time:2.0806,	 Data Time:0.0001, Whole Gen Loss:0.2946	,Recon Loss:0.2896,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6750/7180]: Batch Time:2.1270,	 Data Time:0.0001, Whole Gen Loss:0.3198	,Recon Loss:0.3148,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6800/7180]: Batch Time:2.1481,	 Data Time:0.0001, Whole Gen Loss:0.3135	,Recon Loss:0.3085,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6850/7180]: Batch Time:2.0033,	 Data Time:0.0001, Whole Gen Loss:0.2953	,Recon Loss:0.2903,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6900/7180]: Batch Time:2.0852,	 Data Time:0.0001, Whole Gen Loss:0.2629	,Recon Loss:0.2579,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [6950/7180]: Batch Time:1.9377,	 Data Time:0.0001, Whole Gen Loss:0.2973	,Recon Loss:0.2923,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [7000/7180]: Batch Time:1.9618,	 Data Time:0.0001, Whole Gen Loss:0.3004	,Recon Loss:0.2954,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [7050/7180]: Batch Time:1.9989,	 Data Time:0.0001, Whole Gen Loss:0.2693	,Recon Loss:0.2643,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [7100/7180]: Batch Time:2.0743,	 Data Time:0.0001, Whole Gen Loss:0.2952	,Recon Loss:0.2902,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 2, [7150/7180]: Batch Time:1.9417,	 Data Time:0.0001, Whole Gen Loss:0.2881	,Recon Loss:0.2831,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 2, [100/100]: Batch Time:0.0332,	 Data Time:0.0000,	 Whole Gen Loss:1.5308	,Recon Loss:1.5258,	 GAN Loss:0.0050,	 D Loss:0.0000
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+INFO:__main__:Epoch 3, [50/7180]: Batch Time:2.0987,	 Data Time:0.0001, Whole Gen Loss:0.2883	,Recon Loss:0.2833,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [100/7180]: Batch Time:1.9279,	 Data Time:0.0001, Whole Gen Loss:0.2767	,Recon Loss:0.2717,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [150/7180]: Batch Time:2.1302,	 Data Time:0.0001, Whole Gen Loss:0.3111	,Recon Loss:0.3061,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [200/7180]: Batch Time:1.9777,	 Data Time:0.0001, Whole Gen Loss:0.2876	,Recon Loss:0.2826,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [250/7180]: Batch Time:1.9525,	 Data Time:0.0001, Whole Gen Loss:0.3114	,Recon Loss:0.3064,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [300/7180]: Batch Time:2.0799,	 Data Time:0.0001, Whole Gen Loss:0.3151	,Recon Loss:0.3101,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [350/7180]: Batch Time:1.9393,	 Data Time:0.0001, Whole Gen Loss:0.3285	,Recon Loss:0.3235,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [400/7180]: Batch Time:1.9457,	 Data Time:0.0001, Whole Gen Loss:0.2851	,Recon Loss:0.2801,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [450/7180]: Batch Time:1.9145,	 Data Time:0.0001, Whole Gen Loss:0.3085	,Recon Loss:0.3035,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [500/7180]: Batch Time:1.9239,	 Data Time:0.0001, Whole Gen Loss:0.2906	,Recon Loss:0.2856,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [550/7180]: Batch Time:2.0349,	 Data Time:0.0001, Whole Gen Loss:0.3035	,Recon Loss:0.2985,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [600/7180]: Batch Time:1.9991,	 Data Time:0.0001, Whole Gen Loss:0.2861	,Recon Loss:0.2811,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [650/7180]: Batch Time:1.9286,	 Data Time:0.0001, Whole Gen Loss:0.2655	,Recon Loss:0.2605,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [700/7180]: Batch Time:2.0818,	 Data Time:0.0001, Whole Gen Loss:0.3075	,Recon Loss:0.3025,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [750/7180]: Batch Time:2.0903,	 Data Time:0.0001, Whole Gen Loss:0.3022	,Recon Loss:0.2972,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [800/7180]: Batch Time:2.1130,	 Data Time:0.0001, Whole Gen Loss:0.3178	,Recon Loss:0.3128,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [850/7180]: Batch Time:2.1260,	 Data Time:0.0001, Whole Gen Loss:0.3328	,Recon Loss:0.3278,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [900/7180]: Batch Time:1.9870,	 Data Time:0.0001, Whole Gen Loss:0.3279	,Recon Loss:0.3229,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [950/7180]: Batch Time:2.1193,	 Data Time:0.0001, Whole Gen Loss:0.3325	,Recon Loss:0.3275,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1000/7180]: Batch Time:2.0861,	 Data Time:0.0001, Whole Gen Loss:0.2910	,Recon Loss:0.2860,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1050/7180]: Batch Time:2.1344,	 Data Time:0.0001, Whole Gen Loss:0.4321	,Recon Loss:0.4271,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1100/7180]: Batch Time:2.0444,	 Data Time:0.0001, Whole Gen Loss:0.2863	,Recon Loss:0.2813,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1150/7180]: Batch Time:1.9265,	 Data Time:0.0001, Whole Gen Loss:0.2590	,Recon Loss:0.2540,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1200/7180]: Batch Time:1.9852,	 Data Time:0.0001, Whole Gen Loss:0.2686	,Recon Loss:0.2636,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1250/7180]: Batch Time:1.9687,	 Data Time:0.0001, Whole Gen Loss:0.2529	,Recon Loss:0.2479,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1300/7180]: Batch Time:2.0379,	 Data Time:0.0001, Whole Gen Loss:0.3536	,Recon Loss:0.3486,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1350/7180]: Batch Time:2.0820,	 Data Time:0.0001, Whole Gen Loss:0.2885	,Recon Loss:0.2835,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1400/7180]: Batch Time:1.9559,	 Data Time:0.0001, Whole Gen Loss:0.2737	,Recon Loss:0.2687,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1450/7180]: Batch Time:1.9222,	 Data Time:0.0001, Whole Gen Loss:0.3159	,Recon Loss:0.3109,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1500/7180]: Batch Time:2.0546,	 Data Time:0.0001, Whole Gen Loss:0.3001	,Recon Loss:0.2951,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1550/7180]: Batch Time:1.9616,	 Data Time:0.0001, Whole Gen Loss:0.2995	,Recon Loss:0.2945,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1600/7180]: Batch Time:1.9552,	 Data Time:0.0001, Whole Gen Loss:0.2738	,Recon Loss:0.2688,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1650/7180]: Batch Time:1.9368,	 Data Time:0.0001, Whole Gen Loss:0.2947	,Recon Loss:0.2897,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1700/7180]: Batch Time:1.9183,	 Data Time:0.0001, Whole Gen Loss:0.2361	,Recon Loss:0.2311,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1750/7180]: Batch Time:2.1103,	 Data Time:0.0001, Whole Gen Loss:0.2859	,Recon Loss:0.2809,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1800/7180]: Batch Time:1.9688,	 Data Time:0.0001, Whole Gen Loss:0.3370	,Recon Loss:0.3320,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1850/7180]: Batch Time:1.9146,	 Data Time:0.0001, Whole Gen Loss:0.2949	,Recon Loss:0.2899,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1900/7180]: Batch Time:2.1055,	 Data Time:0.0001, Whole Gen Loss:0.3188	,Recon Loss:0.3138,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [1950/7180]: Batch Time:1.9049,	 Data Time:0.0001, Whole Gen Loss:0.2971	,Recon Loss:0.2921,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2000/7180]: Batch Time:1.9128,	 Data Time:0.0001, Whole Gen Loss:0.3339	,Recon Loss:0.3289,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2050/7180]: Batch Time:2.0914,	 Data Time:0.0001, Whole Gen Loss:0.3000	,Recon Loss:0.2950,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2100/7180]: Batch Time:1.9769,	 Data Time:0.0001, Whole Gen Loss:0.2523	,Recon Loss:0.2473,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2150/7180]: Batch Time:1.9627,	 Data Time:0.0001, Whole Gen Loss:0.2721	,Recon Loss:0.2671,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2200/7180]: Batch Time:1.9195,	 Data Time:0.0001, Whole Gen Loss:0.2888	,Recon Loss:0.2838,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2250/7180]: Batch Time:1.9411,	 Data Time:0.0001, Whole Gen Loss:0.3072	,Recon Loss:0.3022,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2300/7180]: Batch Time:1.9791,	 Data Time:0.0001, Whole Gen Loss:0.2973	,Recon Loss:0.2923,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2350/7180]: Batch Time:1.9213,	 Data Time:0.0001, Whole Gen Loss:0.3070	,Recon Loss:0.3020,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2400/7180]: Batch Time:1.9770,	 Data Time:0.0001, Whole Gen Loss:0.3004	,Recon Loss:0.2954,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2450/7180]: Batch Time:2.0628,	 Data Time:0.0001, Whole Gen Loss:0.3452	,Recon Loss:0.3402,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2500/7180]: Batch Time:2.0852,	 Data Time:0.0001, Whole Gen Loss:0.2741	,Recon Loss:0.2691,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2550/7180]: Batch Time:1.9359,	 Data Time:0.0001, Whole Gen Loss:0.2771	,Recon Loss:0.2721,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2600/7180]: Batch Time:1.9510,	 Data Time:0.0001, Whole Gen Loss:0.2814	,Recon Loss:0.2764,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2650/7180]: Batch Time:1.9558,	 Data Time:0.0001, Whole Gen Loss:0.2765	,Recon Loss:0.2715,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2700/7180]: Batch Time:2.0049,	 Data Time:0.0001, Whole Gen Loss:0.2848	,Recon Loss:0.2798,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2750/7180]: Batch Time:1.9324,	 Data Time:0.0001, Whole Gen Loss:0.2872	,Recon Loss:0.2822,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2800/7180]: Batch Time:2.0699,	 Data Time:0.0001, Whole Gen Loss:0.2644	,Recon Loss:0.2594,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2850/7180]: Batch Time:2.0500,	 Data Time:0.0001, Whole Gen Loss:0.2486	,Recon Loss:0.2436,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2900/7180]: Batch Time:1.9153,	 Data Time:0.0001, Whole Gen Loss:0.3124	,Recon Loss:0.3074,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [2950/7180]: Batch Time:1.9046,	 Data Time:0.0001, Whole Gen Loss:0.2962	,Recon Loss:0.2912,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3000/7180]: Batch Time:1.9543,	 Data Time:0.0001, Whole Gen Loss:0.2814	,Recon Loss:0.2764,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3050/7180]: Batch Time:2.0277,	 Data Time:0.0001, Whole Gen Loss:0.3253	,Recon Loss:0.3203,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3100/7180]: Batch Time:1.9474,	 Data Time:0.0001, Whole Gen Loss:0.3395	,Recon Loss:0.3345,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3150/7180]: Batch Time:1.9352,	 Data Time:0.0001, Whole Gen Loss:0.3423	,Recon Loss:0.3373,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3200/7180]: Batch Time:2.1087,	 Data Time:0.0001, Whole Gen Loss:0.2750	,Recon Loss:0.2700,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 3, [100/100]: Batch Time:0.0320,	 Data Time:0.0000,	 Whole Gen Loss:1.4233	,Recon Loss:1.4183,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3250/7180]: Batch Time:2.0467,	 Data Time:0.0001, Whole Gen Loss:0.3282	,Recon Loss:0.3232,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3300/7180]: Batch Time:1.9392,	 Data Time:0.0001, Whole Gen Loss:0.3727	,Recon Loss:0.3677,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3350/7180]: Batch Time:1.9373,	 Data Time:0.0001, Whole Gen Loss:0.3019	,Recon Loss:0.2969,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3400/7180]: Batch Time:2.0882,	 Data Time:0.0001, Whole Gen Loss:0.2444	,Recon Loss:0.2394,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3450/7180]: Batch Time:2.0707,	 Data Time:0.0001, Whole Gen Loss:0.2591	,Recon Loss:0.2541,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3500/7180]: Batch Time:2.0416,	 Data Time:0.0001, Whole Gen Loss:0.3111	,Recon Loss:0.3061,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3550/7180]: Batch Time:2.0645,	 Data Time:0.0001, Whole Gen Loss:0.3318	,Recon Loss:0.3268,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3600/7180]: Batch Time:1.9995,	 Data Time:0.0001, Whole Gen Loss:0.2903	,Recon Loss:0.2853,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3650/7180]: Batch Time:2.0590,	 Data Time:0.0001, Whole Gen Loss:0.3546	,Recon Loss:0.3496,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3700/7180]: Batch Time:1.9058,	 Data Time:0.0001, Whole Gen Loss:0.2897	,Recon Loss:0.2847,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3750/7180]: Batch Time:2.1071,	 Data Time:0.0001, Whole Gen Loss:0.2712	,Recon Loss:0.2662,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3800/7180]: Batch Time:1.8989,	 Data Time:0.0001, Whole Gen Loss:0.3525	,Recon Loss:0.3475,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3850/7180]: Batch Time:1.9649,	 Data Time:0.0001, Whole Gen Loss:0.2896	,Recon Loss:0.2846,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3900/7180]: Batch Time:1.9459,	 Data Time:0.0001, Whole Gen Loss:0.2795	,Recon Loss:0.2745,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [3950/7180]: Batch Time:1.9393,	 Data Time:0.0001, Whole Gen Loss:0.2610	,Recon Loss:0.2560,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4000/7180]: Batch Time:2.0982,	 Data Time:0.0001, Whole Gen Loss:0.3210	,Recon Loss:0.3160,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4050/7180]: Batch Time:1.9133,	 Data Time:0.0001, Whole Gen Loss:0.3039	,Recon Loss:0.2989,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4100/7180]: Batch Time:1.9491,	 Data Time:0.0001, Whole Gen Loss:0.3088	,Recon Loss:0.3038,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4150/7180]: Batch Time:1.9237,	 Data Time:0.0001, Whole Gen Loss:0.3121	,Recon Loss:0.3071,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4200/7180]: Batch Time:1.9299,	 Data Time:0.0001, Whole Gen Loss:0.3119	,Recon Loss:0.3069,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4250/7180]: Batch Time:2.0988,	 Data Time:0.0001, Whole Gen Loss:0.2880	,Recon Loss:0.2830,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4300/7180]: Batch Time:1.9304,	 Data Time:0.0001, Whole Gen Loss:0.2867	,Recon Loss:0.2817,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4350/7180]: Batch Time:1.9308,	 Data Time:0.0001, Whole Gen Loss:0.2966	,Recon Loss:0.2916,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4400/7180]: Batch Time:1.9468,	 Data Time:0.0001, Whole Gen Loss:0.2551	,Recon Loss:0.2501,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4450/7180]: Batch Time:2.1352,	 Data Time:0.0001, Whole Gen Loss:0.2791	,Recon Loss:0.2741,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4500/7180]: Batch Time:1.9190,	 Data Time:0.0001, Whole Gen Loss:0.2922	,Recon Loss:0.2872,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4550/7180]: Batch Time:1.9786,	 Data Time:0.0001, Whole Gen Loss:0.3768	,Recon Loss:0.3718,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4600/7180]: Batch Time:1.9648,	 Data Time:0.0001, Whole Gen Loss:0.2633	,Recon Loss:0.2583,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4650/7180]: Batch Time:1.9588,	 Data Time:0.0001, Whole Gen Loss:0.2725	,Recon Loss:0.2675,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4700/7180]: Batch Time:1.9951,	 Data Time:0.0001, Whole Gen Loss:0.2589	,Recon Loss:0.2539,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4750/7180]: Batch Time:1.9859,	 Data Time:0.0001, Whole Gen Loss:0.2772	,Recon Loss:0.2722,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4800/7180]: Batch Time:2.0808,	 Data Time:0.0001, Whole Gen Loss:0.2676	,Recon Loss:0.2626,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4850/7180]: Batch Time:2.0588,	 Data Time:0.0001, Whole Gen Loss:0.2786	,Recon Loss:0.2736,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4900/7180]: Batch Time:2.0681,	 Data Time:0.0001, Whole Gen Loss:0.2992	,Recon Loss:0.2942,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [4950/7180]: Batch Time:1.9583,	 Data Time:0.0001, Whole Gen Loss:0.3263	,Recon Loss:0.3213,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5000/7180]: Batch Time:2.0992,	 Data Time:0.0001, Whole Gen Loss:0.2994	,Recon Loss:0.2944,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5050/7180]: Batch Time:2.1039,	 Data Time:0.0001, Whole Gen Loss:0.3144	,Recon Loss:0.3094,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5100/7180]: Batch Time:1.9251,	 Data Time:0.0001, Whole Gen Loss:0.2823	,Recon Loss:0.2773,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5150/7180]: Batch Time:1.9345,	 Data Time:0.0001, Whole Gen Loss:0.2999	,Recon Loss:0.2949,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5200/7180]: Batch Time:2.0157,	 Data Time:0.0001, Whole Gen Loss:0.3030	,Recon Loss:0.2980,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5250/7180]: Batch Time:2.0508,	 Data Time:0.0001, Whole Gen Loss:0.3372	,Recon Loss:0.3322,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5300/7180]: Batch Time:1.9748,	 Data Time:0.0001, Whole Gen Loss:0.2584	,Recon Loss:0.2534,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5350/7180]: Batch Time:2.1045,	 Data Time:0.0001, Whole Gen Loss:0.2517	,Recon Loss:0.2467,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5400/7180]: Batch Time:2.1024,	 Data Time:0.0001, Whole Gen Loss:0.2912	,Recon Loss:0.2862,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5450/7180]: Batch Time:2.1148,	 Data Time:0.0001, Whole Gen Loss:0.2821	,Recon Loss:0.2771,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5500/7180]: Batch Time:1.9321,	 Data Time:0.0001, Whole Gen Loss:0.2784	,Recon Loss:0.2734,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5550/7180]: Batch Time:2.0003,	 Data Time:0.0001, Whole Gen Loss:0.4067	,Recon Loss:0.4017,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5600/7180]: Batch Time:1.9385,	 Data Time:0.0001, Whole Gen Loss:0.2862	,Recon Loss:0.2812,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5650/7180]: Batch Time:2.1274,	 Data Time:0.0001, Whole Gen Loss:0.3047	,Recon Loss:0.2997,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5700/7180]: Batch Time:1.9298,	 Data Time:0.0001, Whole Gen Loss:0.2710	,Recon Loss:0.2660,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5750/7180]: Batch Time:1.9725,	 Data Time:0.0001, Whole Gen Loss:0.3360	,Recon Loss:0.3310,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5800/7180]: Batch Time:1.9471,	 Data Time:0.0001, Whole Gen Loss:0.2648	,Recon Loss:0.2598,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5850/7180]: Batch Time:2.0290,	 Data Time:0.0001, Whole Gen Loss:0.2795	,Recon Loss:0.2745,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5900/7180]: Batch Time:2.0882,	 Data Time:0.0001, Whole Gen Loss:0.3162	,Recon Loss:0.3112,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [5950/7180]: Batch Time:2.1117,	 Data Time:0.0001, Whole Gen Loss:0.3053	,Recon Loss:0.3003,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6000/7180]: Batch Time:1.9227,	 Data Time:0.0001, Whole Gen Loss:0.2746	,Recon Loss:0.2696,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6050/7180]: Batch Time:2.0841,	 Data Time:0.0001, Whole Gen Loss:0.2710	,Recon Loss:0.2660,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6100/7180]: Batch Time:1.9568,	 Data Time:0.0001, Whole Gen Loss:0.3167	,Recon Loss:0.3117,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6150/7180]: Batch Time:1.9157,	 Data Time:0.0001, Whole Gen Loss:0.3714	,Recon Loss:0.3664,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6200/7180]: Batch Time:2.0389,	 Data Time:0.0001, Whole Gen Loss:0.2864	,Recon Loss:0.2814,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6250/7180]: Batch Time:1.9182,	 Data Time:0.0001, Whole Gen Loss:0.2761	,Recon Loss:0.2711,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6300/7180]: Batch Time:2.1474,	 Data Time:0.0001, Whole Gen Loss:0.2598	,Recon Loss:0.2548,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6350/7180]: Batch Time:1.9664,	 Data Time:0.0001, Whole Gen Loss:0.2927	,Recon Loss:0.2877,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6400/7180]: Batch Time:2.1119,	 Data Time:0.0001, Whole Gen Loss:0.3245	,Recon Loss:0.3195,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 3, [100/100]: Batch Time:0.0317,	 Data Time:0.0000,	 Whole Gen Loss:1.4151	,Recon Loss:1.4101,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6450/7180]: Batch Time:1.9806,	 Data Time:0.0001, Whole Gen Loss:0.2830	,Recon Loss:0.2780,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6500/7180]: Batch Time:1.9359,	 Data Time:0.0001, Whole Gen Loss:0.2465	,Recon Loss:0.2415,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6550/7180]: Batch Time:2.0723,	 Data Time:0.0001, Whole Gen Loss:0.2904	,Recon Loss:0.2854,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6600/7180]: Batch Time:1.9311,	 Data Time:0.0001, Whole Gen Loss:0.2521	,Recon Loss:0.2471,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6650/7180]: Batch Time:2.0098,	 Data Time:0.0001, Whole Gen Loss:0.2554	,Recon Loss:0.2504,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6700/7180]: Batch Time:2.0778,	 Data Time:0.0001, Whole Gen Loss:0.2793	,Recon Loss:0.2743,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6750/7180]: Batch Time:1.9016,	 Data Time:0.0001, Whole Gen Loss:0.2788	,Recon Loss:0.2738,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6800/7180]: Batch Time:2.1259,	 Data Time:0.0001, Whole Gen Loss:0.2712	,Recon Loss:0.2662,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6850/7180]: Batch Time:2.2123,	 Data Time:0.0001, Whole Gen Loss:0.2557	,Recon Loss:0.2507,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6900/7180]: Batch Time:1.9975,	 Data Time:0.0001, Whole Gen Loss:0.2606	,Recon Loss:0.2556,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [6950/7180]: Batch Time:1.9456,	 Data Time:0.0001, Whole Gen Loss:0.3114	,Recon Loss:0.3064,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [7000/7180]: Batch Time:2.1014,	 Data Time:0.0001, Whole Gen Loss:0.3248	,Recon Loss:0.3198,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [7050/7180]: Batch Time:1.9267,	 Data Time:0.0001, Whole Gen Loss:0.2984	,Recon Loss:0.2934,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [7100/7180]: Batch Time:1.9587,	 Data Time:0.0001, Whole Gen Loss:0.2848	,Recon Loss:0.2798,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 3, [7150/7180]: Batch Time:2.2470,	 Data Time:0.0001, Whole Gen Loss:0.3478	,Recon Loss:0.3428,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 3, [100/100]: Batch Time:0.0319,	 Data Time:0.0000,	 Whole Gen Loss:1.3968	,Recon Loss:1.3918,	 GAN Loss:0.0050,	 D Loss:0.0000
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+WARNING: You have a CUDA device, so you should probably set cuda=True
+1 done
+WARNING: You have a CUDA device, so you should probably set cuda=True
+2 done
+INFO:__main__:Epoch 4, [50/7180]: Batch Time:1.9210,	 Data Time:0.0001, Whole Gen Loss:0.2807	,Recon Loss:0.2757,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [100/7180]: Batch Time:1.9122,	 Data Time:0.0001, Whole Gen Loss:0.2908	,Recon Loss:0.2858,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [150/7180]: Batch Time:2.0772,	 Data Time:0.0001, Whole Gen Loss:0.2811	,Recon Loss:0.2761,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [200/7180]: Batch Time:1.8915,	 Data Time:0.0001, Whole Gen Loss:0.3139	,Recon Loss:0.3089,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [250/7180]: Batch Time:1.9289,	 Data Time:0.0001, Whole Gen Loss:0.2615	,Recon Loss:0.2565,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [300/7180]: Batch Time:2.0758,	 Data Time:0.0001, Whole Gen Loss:0.2926	,Recon Loss:0.2876,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [350/7180]: Batch Time:1.9503,	 Data Time:0.0001, Whole Gen Loss:0.3521	,Recon Loss:0.3471,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [400/7180]: Batch Time:1.9512,	 Data Time:0.0001, Whole Gen Loss:0.3287	,Recon Loss:0.3237,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [450/7180]: Batch Time:2.0752,	 Data Time:0.0001, Whole Gen Loss:0.2419	,Recon Loss:0.2369,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [500/7180]: Batch Time:1.9094,	 Data Time:0.0001, Whole Gen Loss:0.2819	,Recon Loss:0.2769,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [550/7180]: Batch Time:1.9919,	 Data Time:0.0001, Whole Gen Loss:0.3532	,Recon Loss:0.3482,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [600/7180]: Batch Time:1.9203,	 Data Time:0.0001, Whole Gen Loss:0.2699	,Recon Loss:0.2649,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [650/7180]: Batch Time:2.0946,	 Data Time:0.0001, Whole Gen Loss:0.2695	,Recon Loss:0.2645,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [700/7180]: Batch Time:2.0391,	 Data Time:0.0001, Whole Gen Loss:0.2417	,Recon Loss:0.2367,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [750/7180]: Batch Time:2.0082,	 Data Time:0.0001, Whole Gen Loss:0.3839	,Recon Loss:0.3789,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [800/7180]: Batch Time:1.9051,	 Data Time:0.0001, Whole Gen Loss:0.2672	,Recon Loss:0.2622,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [850/7180]: Batch Time:1.9092,	 Data Time:0.0001, Whole Gen Loss:0.2824	,Recon Loss:0.2774,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [900/7180]: Batch Time:2.1092,	 Data Time:0.0001, Whole Gen Loss:0.2687	,Recon Loss:0.2637,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [950/7180]: Batch Time:1.9076,	 Data Time:0.0001, Whole Gen Loss:0.2551	,Recon Loss:0.2501,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1000/7180]: Batch Time:1.8949,	 Data Time:0.0001, Whole Gen Loss:0.2736	,Recon Loss:0.2686,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1050/7180]: Batch Time:1.9207,	 Data Time:0.0001, Whole Gen Loss:0.2804	,Recon Loss:0.2754,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1100/7180]: Batch Time:1.9002,	 Data Time:0.0001, Whole Gen Loss:0.2614	,Recon Loss:0.2564,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1150/7180]: Batch Time:1.9274,	 Data Time:0.0001, Whole Gen Loss:0.3035	,Recon Loss:0.2985,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1200/7180]: Batch Time:1.9559,	 Data Time:0.0001, Whole Gen Loss:0.2937	,Recon Loss:0.2887,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1250/7180]: Batch Time:1.9182,	 Data Time:0.0001, Whole Gen Loss:0.2730	,Recon Loss:0.2680,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1300/7180]: Batch Time:1.9886,	 Data Time:0.0001, Whole Gen Loss:0.4150	,Recon Loss:0.4100,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1350/7180]: Batch Time:2.0771,	 Data Time:0.0001, Whole Gen Loss:0.2806	,Recon Loss:0.2756,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1400/7180]: Batch Time:1.9734,	 Data Time:0.0001, Whole Gen Loss:0.2838	,Recon Loss:0.2788,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1450/7180]: Batch Time:1.9121,	 Data Time:0.0001, Whole Gen Loss:0.2906	,Recon Loss:0.2856,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1500/7180]: Batch Time:1.8957,	 Data Time:0.0001, Whole Gen Loss:0.3070	,Recon Loss:0.3020,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1550/7180]: Batch Time:1.9273,	 Data Time:0.0001, Whole Gen Loss:0.2639	,Recon Loss:0.2589,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1600/7180]: Batch Time:2.0902,	 Data Time:0.0001, Whole Gen Loss:0.2690	,Recon Loss:0.2640,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1650/7180]: Batch Time:2.0167,	 Data Time:0.0001, Whole Gen Loss:0.3005	,Recon Loss:0.2955,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1700/7180]: Batch Time:1.9658,	 Data Time:0.0001, Whole Gen Loss:0.2630	,Recon Loss:0.2580,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1750/7180]: Batch Time:2.0686,	 Data Time:0.0001, Whole Gen Loss:0.2632	,Recon Loss:0.2582,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1800/7180]: Batch Time:1.9442,	 Data Time:0.0001, Whole Gen Loss:0.2598	,Recon Loss:0.2548,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1850/7180]: Batch Time:1.9325,	 Data Time:0.0001, Whole Gen Loss:0.2786	,Recon Loss:0.2736,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1900/7180]: Batch Time:2.0898,	 Data Time:0.0001, Whole Gen Loss:0.2846	,Recon Loss:0.2796,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [1950/7180]: Batch Time:2.1099,	 Data Time:0.0001, Whole Gen Loss:0.2786	,Recon Loss:0.2736,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2000/7180]: Batch Time:2.0399,	 Data Time:0.0001, Whole Gen Loss:0.2605	,Recon Loss:0.2555,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2050/7180]: Batch Time:1.9091,	 Data Time:0.0001, Whole Gen Loss:0.2595	,Recon Loss:0.2545,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2100/7180]: Batch Time:2.0607,	 Data Time:0.0001, Whole Gen Loss:0.2724	,Recon Loss:0.2674,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2150/7180]: Batch Time:2.0912,	 Data Time:0.0001, Whole Gen Loss:0.2815	,Recon Loss:0.2765,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2200/7180]: Batch Time:2.1112,	 Data Time:0.0001, Whole Gen Loss:0.3011	,Recon Loss:0.2961,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2250/7180]: Batch Time:1.9079,	 Data Time:0.0001, Whole Gen Loss:0.2613	,Recon Loss:0.2563,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2300/7180]: Batch Time:2.0378,	 Data Time:0.0001, Whole Gen Loss:0.4074	,Recon Loss:0.4024,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2350/7180]: Batch Time:2.0750,	 Data Time:0.0001, Whole Gen Loss:0.2737	,Recon Loss:0.2687,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2400/7180]: Batch Time:2.0543,	 Data Time:0.0001, Whole Gen Loss:0.2562	,Recon Loss:0.2512,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2450/7180]: Batch Time:2.0476,	 Data Time:0.0001, Whole Gen Loss:0.2715	,Recon Loss:0.2665,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2500/7180]: Batch Time:1.9566,	 Data Time:0.0001, Whole Gen Loss:0.2646	,Recon Loss:0.2596,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2550/7180]: Batch Time:1.9365,	 Data Time:0.0001, Whole Gen Loss:0.2910	,Recon Loss:0.2860,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2600/7180]: Batch Time:2.0223,	 Data Time:0.0001, Whole Gen Loss:0.2872	,Recon Loss:0.2822,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2650/7180]: Batch Time:1.9333,	 Data Time:0.0001, Whole Gen Loss:0.2827	,Recon Loss:0.2777,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2700/7180]: Batch Time:1.9264,	 Data Time:0.0001, Whole Gen Loss:0.2375	,Recon Loss:0.2325,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2750/7180]: Batch Time:2.1361,	 Data Time:0.0001, Whole Gen Loss:0.2522	,Recon Loss:0.2472,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2800/7180]: Batch Time:2.0191,	 Data Time:0.0001, Whole Gen Loss:0.2519	,Recon Loss:0.2469,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2850/7180]: Batch Time:1.8954,	 Data Time:0.0001, Whole Gen Loss:0.2656	,Recon Loss:0.2606,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2900/7180]: Batch Time:1.9562,	 Data Time:0.0001, Whole Gen Loss:0.2525	,Recon Loss:0.2475,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [2950/7180]: Batch Time:2.0922,	 Data Time:0.0001, Whole Gen Loss:0.2700	,Recon Loss:0.2650,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3000/7180]: Batch Time:1.9295,	 Data Time:0.0001, Whole Gen Loss:0.2924	,Recon Loss:0.2874,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3050/7180]: Batch Time:2.0705,	 Data Time:0.0001, Whole Gen Loss:0.2702	,Recon Loss:0.2652,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3100/7180]: Batch Time:1.9021,	 Data Time:0.0001, Whole Gen Loss:0.2487	,Recon Loss:0.2437,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3150/7180]: Batch Time:2.0356,	 Data Time:0.0001, Whole Gen Loss:0.2383	,Recon Loss:0.2333,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3200/7180]: Batch Time:1.9013,	 Data Time:0.0001, Whole Gen Loss:0.3002	,Recon Loss:0.2952,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Validation Epoch 4, [100/100]: Batch Time:0.0316,	 Data Time:0.0000,	 Whole Gen Loss:1.4165	,Recon Loss:1.4115,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3250/7180]: Batch Time:2.0271,	 Data Time:0.0001, Whole Gen Loss:0.2722	,Recon Loss:0.2672,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3300/7180]: Batch Time:1.9626,	 Data Time:0.0001, Whole Gen Loss:0.2598	,Recon Loss:0.2548,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3350/7180]: Batch Time:1.9388,	 Data Time:0.0001, Whole Gen Loss:0.2619	,Recon Loss:0.2569,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3400/7180]: Batch Time:2.0779,	 Data Time:0.0001, Whole Gen Loss:0.2757	,Recon Loss:0.2707,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3450/7180]: Batch Time:2.0122,	 Data Time:0.0001, Whole Gen Loss:0.2734	,Recon Loss:0.2684,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3500/7180]: Batch Time:1.8998,	 Data Time:0.0001, Whole Gen Loss:0.2635	,Recon Loss:0.2585,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3550/7180]: Batch Time:1.9300,	 Data Time:0.0001, Whole Gen Loss:0.2925	,Recon Loss:0.2875,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3600/7180]: Batch Time:1.9445,	 Data Time:0.0001, Whole Gen Loss:0.2780	,Recon Loss:0.2730,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3650/7180]: Batch Time:2.0359,	 Data Time:0.0001, Whole Gen Loss:0.2501	,Recon Loss:0.2451,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3700/7180]: Batch Time:2.1123,	 Data Time:0.0001, Whole Gen Loss:0.2467	,Recon Loss:0.2417,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3750/7180]: Batch Time:1.8928,	 Data Time:0.0001, Whole Gen Loss:0.2681	,Recon Loss:0.2631,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3800/7180]: Batch Time:2.0662,	 Data Time:0.0001, Whole Gen Loss:0.2964	,Recon Loss:0.2914,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3850/7180]: Batch Time:1.8952,	 Data Time:0.0001, Whole Gen Loss:0.2957	,Recon Loss:0.2907,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3900/7180]: Batch Time:1.9040,	 Data Time:0.0001, Whole Gen Loss:0.2583	,Recon Loss:0.2533,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [3950/7180]: Batch Time:1.8939,	 Data Time:0.0001, Whole Gen Loss:0.2823	,Recon Loss:0.2773,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4000/7180]: Batch Time:2.0813,	 Data Time:0.0001, Whole Gen Loss:0.2722	,Recon Loss:0.2672,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4050/7180]: Batch Time:1.9015,	 Data Time:0.0001, Whole Gen Loss:0.2735	,Recon Loss:0.2685,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4100/7180]: Batch Time:1.9098,	 Data Time:0.0001, Whole Gen Loss:0.2702	,Recon Loss:0.2652,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4150/7180]: Batch Time:2.1010,	 Data Time:0.0001, Whole Gen Loss:0.2687	,Recon Loss:0.2637,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4200/7180]: Batch Time:2.0635,	 Data Time:0.0001, Whole Gen Loss:0.2684	,Recon Loss:0.2634,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4250/7180]: Batch Time:1.9013,	 Data Time:0.0001, Whole Gen Loss:0.2242	,Recon Loss:0.2192,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4300/7180]: Batch Time:1.9514,	 Data Time:0.0001, Whole Gen Loss:0.2713	,Recon Loss:0.2663,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4350/7180]: Batch Time:1.9119,	 Data Time:0.0001, Whole Gen Loss:0.2981	,Recon Loss:0.2931,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4400/7180]: Batch Time:2.1127,	 Data Time:0.0001, Whole Gen Loss:0.2727	,Recon Loss:0.2677,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4450/7180]: Batch Time:1.9267,	 Data Time:0.0001, Whole Gen Loss:0.2589	,Recon Loss:0.2539,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4500/7180]: Batch Time:1.9230,	 Data Time:0.0001, Whole Gen Loss:0.2880	,Recon Loss:0.2830,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4550/7180]: Batch Time:2.0744,	 Data Time:0.0001, Whole Gen Loss:0.2812	,Recon Loss:0.2762,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4600/7180]: Batch Time:1.9170,	 Data Time:0.0001, Whole Gen Loss:0.3073	,Recon Loss:0.3023,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4650/7180]: Batch Time:2.0170,	 Data Time:0.0001, Whole Gen Loss:0.2925	,Recon Loss:0.2875,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4700/7180]: Batch Time:1.9050,	 Data Time:0.0001, Whole Gen Loss:0.2590	,Recon Loss:0.2540,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4750/7180]: Batch Time:1.9887,	 Data Time:0.0001, Whole Gen Loss:0.3041	,Recon Loss:0.2991,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4800/7180]: Batch Time:2.0234,	 Data Time:0.0001, Whole Gen Loss:0.2961	,Recon Loss:0.2911,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4850/7180]: Batch Time:2.1312,	 Data Time:0.0001, Whole Gen Loss:0.2885	,Recon Loss:0.2835,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4900/7180]: Batch Time:1.9663,	 Data Time:0.0001, Whole Gen Loss:0.2837	,Recon Loss:0.2787,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [4950/7180]: Batch Time:2.1162,	 Data Time:0.0001, Whole Gen Loss:0.2840	,Recon Loss:0.2790,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5000/7180]: Batch Time:1.9449,	 Data Time:0.0001, Whole Gen Loss:0.2443	,Recon Loss:0.2393,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5050/7180]: Batch Time:1.9267,	 Data Time:0.0001, Whole Gen Loss:0.2553	,Recon Loss:0.2503,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5100/7180]: Batch Time:2.1323,	 Data Time:0.0001, Whole Gen Loss:0.2725	,Recon Loss:0.2675,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5150/7180]: Batch Time:2.0801,	 Data Time:0.0001, Whole Gen Loss:0.2439	,Recon Loss:0.2389,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5200/7180]: Batch Time:2.0039,	 Data Time:0.0001, Whole Gen Loss:0.2911	,Recon Loss:0.2861,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5250/7180]: Batch Time:1.9165,	 Data Time:0.0001, Whole Gen Loss:0.2388	,Recon Loss:0.2338,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5300/7180]: Batch Time:1.9490,	 Data Time:0.0001, Whole Gen Loss:0.2854	,Recon Loss:0.2804,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5350/7180]: Batch Time:2.0684,	 Data Time:0.0001, Whole Gen Loss:0.2747	,Recon Loss:0.2697,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5400/7180]: Batch Time:2.1103,	 Data Time:0.0001, Whole Gen Loss:0.2490	,Recon Loss:0.2440,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5450/7180]: Batch Time:1.9212,	 Data Time:0.0001, Whole Gen Loss:0.2659	,Recon Loss:0.2609,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5500/7180]: Batch Time:1.9197,	 Data Time:0.0001, Whole Gen Loss:0.2845	,Recon Loss:0.2795,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5550/7180]: Batch Time:1.9998,	 Data Time:0.0001, Whole Gen Loss:0.2821	,Recon Loss:0.2771,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5600/7180]: Batch Time:2.1209,	 Data Time:0.0001, Whole Gen Loss:0.2633	,Recon Loss:0.2583,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5650/7180]: Batch Time:1.9985,	 Data Time:0.0001, Whole Gen Loss:0.3359	,Recon Loss:0.3309,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5700/7180]: Batch Time:1.9737,	 Data Time:0.0001, Whole Gen Loss:0.2553	,Recon Loss:0.2503,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5750/7180]: Batch Time:1.9745,	 Data Time:0.0001, Whole Gen Loss:0.2585	,Recon Loss:0.2535,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5800/7180]: Batch Time:1.9706,	 Data Time:0.0001, Whole Gen Loss:0.3801	,Recon Loss:0.3751,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5850/7180]: Batch Time:1.9828,	 Data Time:0.0001, Whole Gen Loss:0.3094	,Recon Loss:0.3044,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5900/7180]: Batch Time:1.9104,	 Data Time:0.0001, Whole Gen Loss:0.2491	,Recon Loss:0.2441,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [5950/7180]: Batch Time:1.9400,	 Data Time:0.0001, Whole Gen Loss:0.2619	,Recon Loss:0.2569,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [6000/7180]: Batch Time:1.9546,	 Data Time:0.0001, Whole Gen Loss:0.3307	,Recon Loss:0.3257,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [6050/7180]: Batch Time:1.9268,	 Data Time:0.0001, Whole Gen Loss:0.2633	,Recon Loss:0.2583,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [6100/7180]: Batch Time:1.9553,	 Data Time:0.0001, Whole Gen Loss:0.2775	,Recon Loss:0.2725,	 GAN Loss:0.0050,	 D Loss:0.0000
+INFO:__main__:Epoch 4, [6150/7180]: Batch Time:2.1491,	 Data Time:0.0001, Whole Gen Loss:0.3237	,Recon Loss:0.3187,	 GAN Loss:0.0050,	 D Loss:0.0000

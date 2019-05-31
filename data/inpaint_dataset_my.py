@@ -61,7 +61,7 @@ class InpaintDatasetMy(BaseDataset):
     @staticmethod
     def process_mask(img_size, bbox):
         mask = np.zeros(img_size)
-        mask[bbox[1]:bbox[3], bbox[0]:bbox[2]] = 1
+        mask[bbox[1]:bbox[3]+1, bbox[0]:bbox[2]+1] = 1
         return Image.fromarray(mask)
 
     @staticmethod
@@ -74,5 +74,5 @@ class InpaintDatasetMy(BaseDataset):
         for i in range(drawing.shape[0]):
             for k in range(drawing.shape[1]):
                 if not (bbox[1] <= i <= bbox[3] and bbox[0] <= k <= bbox[2]):
-                    drawing[bbox[i][k] = 0
+                    drawing[i][k] = 0
         return Image.fromarray(drawing)
