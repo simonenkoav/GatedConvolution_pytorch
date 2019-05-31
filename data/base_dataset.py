@@ -28,8 +28,6 @@ class BaseDataset(Dataset):
         self.transforms_oprs["hflip"]= transforms.RandomHorizontalFlip(0.5)
         self.transforms_oprs["vflip"] = transforms.RandomVerticalFlip(0.5)
         self.transforms_oprs["random_crop"] = transforms.RandomCrop(crop_size)
-        self.transforms_oprs["random_perspective"] = transforms.RandomPerspective(distortion_scale=0.5,
-                                                                                  p=0.5, interpolation=3)
         self.transforms_oprs["to_tensor"] = transforms.ToTensor()
         self.transforms_oprs["norm"] = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
         self.transforms_oprs["resize"] = transforms.Resize(crop_size)
