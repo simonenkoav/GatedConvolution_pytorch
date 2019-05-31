@@ -257,7 +257,8 @@ def main():
     logger.info("Initialize the dataset...")
     train_dataset = InpaintDatasetMy(config.DATA_FLIST[dataset_type]['train_fname'],
                                      config.DATA_FLIST[dataset_type]['base_path'],
-                                     resize_shape=tuple(config.IMG_SHAPES))
+                                     resize_shape=tuple(config.IMG_SHAPES), transforms_oprs=['random_perspective',
+                                                                                             'to_tensor'])
     train_loader = train_dataset.loader(batch_size=batch_size, shuffle=True,
                                         num_workers=16, pin_memory=True)
 
